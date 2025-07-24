@@ -1,60 +1,58 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_63",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,D,B={
-cJN(){return new B.Aw(null)},
-Aw:function Aw(d){this.a=d},
-ajA:function ajA(d,e){this.c=d
-this.d=$
-this.a=e},
-LK:function LK(d,e){var _=this
-_.Q=null
-_.a=d
-_.c=_.b=!1
-_.e=null
-_.K$=0
-_.N$=e
-_.aP$=_.aK$=0}},C
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,E,F,G,H,C={
+cS9(){return new C.D_(null)},
+D_:function D_(d){this.a=d},
+bDn:function bDn(d){this.a=d},
+bDo:function bDo(d){this.a=d},
+bDp:function bDp(d){this.a=d},
+bDq:function bDq(d){this.a=d},
+bDr:function bDr(){}},D
 A=c[0]
-D=c[2]
-B=a.updateHolder(c[17],B)
-C=c[101]
-B.Aw.prototype={
-gZq(){return!1},
-fT(d){return"Contacts"},
-dz(d){return new B.ajA(null,null)}}
-B.ajA.prototype={
-pj(d){var x=$.n9().$0(),w=$.nb().$0(),v=$.na().$0(),u=new A.ls(x,w,v),t=x.e3()
-u.a=A.eI(A.a([t,w.e3(),v.e3()],y.i),y.v)
-x=new B.LK(u,$.an())
-x.n1(d)
-return x}}
-B.LK.prototype={
-ga2o(){return"ContactsViewModel"},
-hK(d){return this.bJ3(d)},
-bJ3(d){var x=0,w=A.u(y.b),v=this,u,t,s,r,q,p,o,n
-var $async$hK=A.o(function(e,f){if(e===1)return A.q(f,w)
-while(true)switch(x){case 0:n=[]
-for(u=y.k,t=y.z,s=y.w,r=0;r<50;++r){q=A.a([],u)
-p=A.a([],t)
-o=A.b(["contactName","Tom"+r,"lastContacted","1 Feb, 2020","company","Starbucks","contact","nathan.roberts@example.com","phone","(201) 555-0124","leadScore","Online store"],s,s)
-p.push(v.Qw("contactName",o))
-p.push(v.Qw("lastContacted",o))
-p.push(v.Qw("company",o))
-p.push(v.Qw("contact",o))
-p.push(v.afo("leadScore",o,"tag"))
-q.push(p)
-D.e.G(n,q)}v.Q=A.cn6(A.b(["headers",C.aWi,"rows",n],s,y.b))
-v.ae()
-return A.r(null,w)}})
-return A.t($async$hK,w)}}
-var z=a.updateTypes(["d(v)"]);(function installTearOffs(){var x=a._instance_1u
-x(B.Aw.prototype,"gh2","dz",0)})();(function inheritance(){var x=a.inherit
-x(B.Aw,A.fS)
-x(B.ajA,A.pE)
-x(B.LK,A.hY)})()
-A.eq(b.typeUniverse,JSON.parse('{"LK":{"hY":[],"bf":[],"aE":[]},"Aw":{"U":[],"d":[]},"ajA":{"ee":["LK"],"U":[],"d":[],"ee.0":"LK"}}'))
-var y={i:A.a7("m<a5<~>>"),k:A.a7("m<E<ap<f,@>>>"),z:A.a7("m<ap<f,@>>"),w:A.a7("f"),b:A.a7("@"),v:A.a7("~")};(function constants(){var x=a.makeConstList
-C.aWi=A.a(x(["Contact Name","Last Contacted","Company","Contact","Lead Score"]),A.a7("m<f>"))})()};
+B=c[2]
+E=c[44]
+F=c[43]
+G=c[46]
+H=c[54]
+C=a.updateHolder(c[19],C)
+D=c[84]
+C.D_.prototype={
+fU(d){return"Toast"},
+dz(d){return A.P(A.a([new E.w5("Message Toast",this.bi4(d),null),B.aZ],y.e),B.t,null,B.o,B.r,B.v)},
+bi4(d){var x=null,w=y.p
+return A.P(A.a([A.b7(x,x,A.av(d,B.X,w).gq1(),x,x,x,!1,new C.bDn(d),x,"info"),B.aZ,A.b7(x,x,A.av(d,B.X,w).gps(),x,x,x,!1,new C.bDo(d),x,"success"),B.aZ,A.b7(x,x,A.av(d,B.X,w).gqf(),x,x,x,!1,new C.bDp(d),x,"warn"),B.aZ,A.b7(x,x,A.av(d,B.X,w).gpS(),x,x,x,!1,new C.bDq(d),x,"danger"),B.aZ,A.b7(x,x,A.av(d,B.X,w).gwb(),x,x,x,!1,new C.bDr(),x,"dark"),B.aZ],y.e),B.t,x,B.o,B.r,B.v)}}
+var z=a.updateTypes(["d(p)"])
+C.bDn.prototype={
+$0(){var x=null,w=this.a
+$.e0().lN(0,B.ee,D.dO,w,!1,B.bE,A.n(A.av(w,B.X,y.p).gq1(),x,x,x,x,x,x,x,x,x,x),B.bNk)},
+$S:0}
+C.bDo.prototype={
+$0(){var x=null,w=this.a
+$.e0().lN(0,B.ee,D.dO,w,!1,B.bE,A.n(A.av(w,B.X,y.p).gps(),x,x,x,x,x,x,x,x,x,x),B.cW)},
+$S:0}
+C.bDp.prototype={
+$0(){var x=null,w=this.a
+$.e0().lN(0,B.ee,D.dO,w,!1,B.bE,A.n(A.av(w,B.X,y.p).gqf(),x,x,x,x,x,x,x,x,x,x),B.Iv)},
+$S:0}
+C.bDq.prototype={
+$0(){var x=null,w=this.a
+$.e0().lN(0,B.ee,D.dO,w,!1,B.bE,A.n(A.av(w,B.X,y.p).gpS(),x,x,x,x,x,x,x,x,x,x),B.bm)},
+$S:0}
+C.bDr.prototype={
+$0(){var x=0,w=A.v(y.f),v
+var $async$$0=A.o(function(d,e){if(d===1)return A.r(e,w)
+while(true)switch(x){case 0:v=A.fq("https://payamzahedi.com/toastification/",0,null)
+x=2
+return A.w(F.adk(v),$async$$0)
+case 2:if(e)G.T1(v,H.tQ)
+return A.t(null,w)}})
+return A.u($async$$0,w)},
+$S:5};(function installTearOffs(){var x=a._instance_1u
+x(C.D_.prototype,"gh3","dz",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(C.D_,A.fS)
+w(A.h1,[C.bDn,C.bDo,C.bDp,C.bDq,C.bDr])})()
+A.ep(b.typeUniverse,JSON.parse('{"D_":{"U":[],"d":[]}}'))
+var y={p:A.a7("h0"),e:A.a7("m<d>"),f:A.a7("~")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_63",e:"endPart",h:b})})($__dart_deferred_initializers__,"LVDzY1Rzdbxh2fxCJZ2a465KgVc=");
+a.eventLog.push({p:"main.dart.js_63",e:"endPart",h:b})})($__dart_deferred_initializers__,"/bVGm04LqT9modX0LxyFP9ueM60=");

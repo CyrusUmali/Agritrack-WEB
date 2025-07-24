@@ -1,23 +1,10 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_99",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B={ru:function ru(d,e,f,g,h,i){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i}},D
-A=c[0]
-C=c[2]
-B=a.updateHolder(c[38],B)
-D=c[65]
-B.ru.prototype={
-gcG(){var y=this
-return[y.a,y.b,y.c,y.d,y.e,y.f]},
-gaU(d){return this.a}}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.ru,A.j2)})()
-A.eo(b.typeUniverse,JSON.parse('{"ru":{"j2":[],"b6":[]}}'));(function constants(){D.ads=new A.aX("Upload Farmer Photo (Optional)",null,C.df,null,null,null,null,null,null,null,null,null)})()};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A,C
+B=c[0]
+A=c[2]
+C=c[71]
+var z=a.updateTypes([]);(function constants(){C.Og=new B.c7(A.p_,20,A.y,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_99",e:"endPart",h:b})})($__dart_deferred_initializers__,"R6GgMoIeL2xPJpbshum3eldgp64=");
+a.eventLog.push({p:"main.dart.js_99",e:"endPart",h:b})})($__dart_deferred_initializers__,"j/NH2s3z6FlGsmG6pXYl9V9sl1o=");
