@@ -1,60 +1,40 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_61",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,D,B={
-cJO(){return new B.Ay(null)},
-Ay:function Ay(d){this.a=d},
-ajA:function ajA(d,e){this.c=d
-this.d=$
-this.a=e},
-LL:function LL(d,e){var _=this
-_.Q=null
-_.a=d
-_.c=_.b=!1
-_.e=null
-_.K$=0
-_.N$=e
-_.aP$=_.aK$=0}},C
-A=c[0]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,D,A={NF:function NF(d,e){this.a=d
+this.b=e},bGV:function bGV(){},aVH:function aVH(){},
+d0Q(d){switch(d.a){case 0:return D.GZ
+case 2:return D.aaL
+case 1:return D.aaK
+case 3:return C.bzV
+case 4:return D.aaM}},
+Tp(d,e){var x=0,w=B.t(y.a),v,u
+var $async$Tp=B.o(function(f,g){if(f===1)return B.p(g,w)
+while(true)switch(x){case 0:if(e===C.aD1||e===C.aD2)u=!(d.gkq()==="https"||d.gkq()==="http")
+else u=!1
+if(u)throw B.e(B.hv(d,"url","To use an in-app web view, you must provide an http(s) URL."))
+v=$.crA().Oj(d.k(0),new B.ao_(A.d0Q(e),new B.anl(!0,!0,D.ny),null))
+x=1
+break
+case 1:return B.q(v,w)}})
+return B.r($async$Tp,w)}},C
+B=c[0]
 D=c[2]
-B=a.updateHolder(c[17],B)
-C=c[100]
-B.Ay.prototype={
-gZr(){return!1},
-fU(d){return"Contacts"},
-dz(d){return new B.ajA(null,null)}}
-B.ajA.prototype={
-pj(d){var x=$.na().$0(),w=$.nc().$0(),v=$.nb().$0(),u=new A.ls(x,w,v),t=x.e3()
-u.a=A.eH(A.a([t,w.e3(),v.e3()],y.i),y.v)
-x=new B.LL(u,$.an())
-x.n1(d)
-return x}}
-B.LL.prototype={
-ga2q(){return"ContactsViewModel"},
-hK(d){return this.bJ5(d)},
-bJ5(d){var x=0,w=A.v(y.b),v=this,u,t,s,r,q,p,o,n
-var $async$hK=A.o(function(e,f){if(e===1)return A.r(f,w)
-while(true)switch(x){case 0:n=[]
-for(u=y.k,t=y.z,s=y.w,r=0;r<50;++r){q=A.a([],u)
-p=A.a([],t)
-o=A.b(["contactName","Tom"+r,"lastContacted","1 Feb, 2020","company","Starbucks","contact","nathan.roberts@example.com","phone","(201) 555-0124","leadScore","Online store"],s,s)
-p.push(v.Qx("contactName",o))
-p.push(v.Qx("lastContacted",o))
-p.push(v.Qx("company",o))
-p.push(v.Qx("contact",o))
-p.push(v.afp("leadScore",o,"tag"))
-q.push(p)
-D.e.G(n,q)}v.Q=A.cn5(A.b(["headers",C.aWd,"rows",n],s,y.b))
-v.ae()
-return A.t(null,w)}})
-return A.u($async$hK,w)}}
-var z=a.updateTypes(["d(p)"]);(function installTearOffs(){var x=a._instance_1u
-x(B.Ay.prototype,"gh3","dz",0)})();(function inheritance(){var x=a.inherit
-x(B.Ay,A.fS)
-x(B.ajA,A.pD)
-x(B.LL,A.hY)})()
-A.ep(b.typeUniverse,JSON.parse('{"LL":{"hY":[],"bf":[],"aE":[]},"Ay":{"U":[],"d":[]},"ajA":{"ee":["LL"],"U":[],"d":[],"ee.0":"LL"}}'))
-var y={i:A.a7("m<a5<~>>"),k:A.a7("m<E<ap<f,@>>>"),z:A.a7("m<ap<f,@>>"),w:A.a7("f"),b:A.a7("@"),v:A.a7("~")};(function constants(){var x=a.makeConstList
-C.aWd=A.a(x(["Contact Name","Last Contacted","Company","Contact","Lead Score"]),A.a7("m<f>"))})()};
+A=a.updateHolder(c[48],A)
+C=c[56]
+A.NF.prototype={
+G(){return"LaunchMode."+this.b}}
+A.bGV.prototype={}
+A.aVH.prototype={}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.NF,B.mo)
+w(B.R,[A.bGV,A.aVH])})()
+var y={a:B.a8("H")};(function constants(){C.bTE=new A.aVH()
+C.bTM=new A.bGV()
+C.tT=new A.NF(0,"platformDefault")
+C.aD1=new A.NF(1,"inAppWebView")
+C.aD2=new A.NF(2,"inAppBrowserView")
+C.aD3=new A.NF(3,"externalApplication")
+C.bzV=new B.I0(3,"externalApplication")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"G8UOrPYe12tN5y9TWJwatl06P24=");
+a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"EgpycwvzWa8yncdqco95BCc32eo=");
