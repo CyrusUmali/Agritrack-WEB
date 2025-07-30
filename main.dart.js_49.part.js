@@ -1,19 +1,66 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_49",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B={
-cKb(){return new B.A4(null)},
-A4:function A4(d){this.a=d}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,D={asv:function asv(d){this.a=d},asw:function asw(d){this.a=d},
+cT0(){var x=$.am(),w=y.l
+return new D.CQ(new A.ba("",x,y.o),new A.ba(!1,x,w),new A.ba(!1,x,w),new A.ba(!1,x,w),null)},
+CQ:function CQ(d,e,f,g,h){var _=this
+_.e=d
+_.f=e
+_.r=f
+_.w=g
+_.a=h}},C
 A=c[0]
-C=c[2]
-B=a.updateHolder(c[12],B)
-B.A4.prototype={
-fG(d){return A.aw(d,C.W,y.h).gus()},
-dh(d){return A.O(A.a([],y.e),C.t,null,C.o,C.p)}}
+B=c[2]
+D=a.updateHolder(c[13],D)
+C=c[107]
+D.asv.prototype={
+v(d){var x,w,v=null,u=y.p,t=A.aw(d,B.W,u).gwj(),s=A.m(A.aw(d,B.W,u).guV(),v,v,v,v,v,v,v,v,v,v),r=A.aw(d,B.W,u)
+r=A.m(r.gtx(r),v,v,v,v,v,v,v,v,v,v)
+x=A.aw(d,B.W,u)
+w=y.e
+x=A.W(A.a([C.akz,B.aG,A.O(A.a([s,A.W(A.a([r,B.aA,A.m(x.gwc(x),v,v,v,v,v,v,v,v,v,v)],w),B.t,B.o,B.p,v,v)],w),B.t,v,B.o,B.p),new A.a3i(v)],w),B.t,B.o,B.p,v,v)
+r=A.S(v,new A.bR(B.ak,v,B.ae,B.G,A.a([A.aY(A.O(A.a([B.b_,A.az(C.aAo,v,v,v,v),B.co,A.m(A.aw(d,B.W,u).guN(),v,v,v,v,v,v,v,v,v,v),B.co,A.m("SVG,PNG,JPG or GIF",v,v,v,v,v,v,v,v,v,v),B.co,A.m("max,800 X 800px",v,v,v,v,v,v,v,v,v,v),B.b_],w),B.t,v,B.o,B.p),v,v)],w),v),B.u,B.da,v,v,v,v,v,v,v,v,v,v)
+s=A.aw(d,B.W,u)
+s=A.b7(v,v,s.gmt(s),v,v,v,!1,v,v,v)
+u=A.aw(d,B.W,u)
+return A.cl(8,A.O(A.a([x,B.B,r,B.B,A.W(A.a([B.cR,new A.x(60,v,s,v),B.aA,new A.x(60,v,A.b7(v,v,u.gqh(u),v,v,v,!1,v,v,"primary"),v)],w),B.t,B.dy,B.p,v,v)],w),B.H,v,B.o,B.p),v,v,v,t)}}
+D.asw.prototype={
+v(d){var x,w,v,u,t=null,s=y.p,r=A.aw(d,B.W,s).gvJ(),q=A.S(t,A.z6("assets/icon/user.svg",t,22,22),B.u,t,t,t,t,t,t,t,new A.a3(5,0,5,0),t,t,t),p=A.aw(d,B.W,s).gt3()
+p=A.aq(A.e3(t,t,B.bG,A.aw(d,B.W,s).gt4(),q,t,p,t,1,t,t,!0,t,t,t),1)
+q=A.aw(d,B.W,s).gq9()
+x=y.e
+q=A.W(A.a([p,B.aA,A.aq(A.e3(t,t,B.bG,A.aw(d,B.W,s).gvK(),t,t,q,t,1,t,t,!0,t,t,t),1)],x),B.t,B.o,B.p,t,t)
+p=A.aw(d,B.W,s).gnm()
+p=A.e3(t,t,B.bG,A.aw(d,B.W,s).gpV(),A.S(t,A.z6("assets/signin/email.svg",t,22,22),B.u,t,t,t,t,t,t,t,new A.a3(5,0,5,0),t,t,t),t,p,t,1,t,t,!0,t,t,t)
+w=A.aw(d,B.W,s).gwe()
+w=A.e3(t,t,B.bG,A.aw(d,B.W,s).gwf(),t,t,w,t,1,t,t,!0,t,t,t)
+v=A.e3(t,t,B.bG,t,t,t,A.aw(d,B.W,s).guA(),t,5,t,t,!0,t,t,t)
+u=A.aw(d,B.W,s)
+u=A.b7(t,t,u.gmt(u),t,t,t,!1,t,t,t)
+s=A.aw(d,B.W,s)
+return A.cl(8,A.O(A.a([q,B.B,p,B.B,w,B.B,v,B.B,A.W(A.a([new A.x(60,t,u,t),B.aA,new A.x(60,t,A.b7(t,t,s.gqh(s),t,t,t,!1,t,t,"primary"),t)],x),B.t,B.dy,B.p,t,t)],x),B.H,t,B.o,B.p),t,t,t,r)}}
+D.CQ.prototype={
+fG(d){return A.aw(d,B.W,y.p).gqj()},
+dh(d){var x=this.gbj2()
+return A.fw(this.gb5u(),x,x)},
+b5v(d){return A.W(A.a([A.aq(C.M2,3),B.cn,A.aq(C.a7_,2)],y.e),B.H,B.o,B.p,null,null)},
+bj3(d){return A.O(A.a([C.M2,B.B,C.a7_],y.e),B.t,null,B.o,B.p)}}
 var z=a.updateTypes(["d(u)"]);(function installTearOffs(){var x=a._instance_1u
-x(B.A4.prototype,"gfL","dh",0)})();(function inheritance(){var x=a.inherit
-x(B.A4,A.fQ)})()
-A.en(b.typeUniverse,JSON.parse('{"A4":{"U":[],"d":[]}}'))
-var y={h:A.a8("h5"),e:A.a8("n<d>")}};
+var w
+x(w=D.CQ.prototype,"gfL","dh",0)
+x(w,"gb5u","b5v",0)
+x(w,"gbj2","bj3",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(A.U,[D.asv,D.asw])
+w(D.CQ,A.fQ)})()
+A.el(b.typeUniverse,JSON.parse('{"asv":{"U":[],"d":[]},"asw":{"U":[],"d":[]},"CQ":{"U":[],"d":[]}}'))
+var y={p:A.a8("h6"),e:A.a8("n<d>"),o:A.a8("ba<f>"),l:A.a8("ba<H>")};(function constants(){var x=a.makeConstList
+C.bx1=new A.l0("https://nextjs-demo.tailadmin.com/_next/image?url=%2Fimages%2Fuser%2Fuser-01.png&w=256&q=75",1,null)
+C.akz=new A.Vp(null,null,C.bx1,null,22,null)
+C.bz8=new D.asw(null)
+C.bkK=A.a(x([C.bz8,B.b_]),y.e)
+C.M2=new A.kQ(B.a_,B.o,B.p,B.t,null,B.cK,null,0,C.bkK,null)
+C.aAo=new A.aT(59029,"MaterialIcons",null,!1)
+C.a7_=new D.asv(null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"Aob8Wr4hwTB8YixNuU7zbXLXzIM=");
+a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"0YMrnIwYGzLJ/uVSA2tpstvAWJE=");

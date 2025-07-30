@@ -1,40 +1,62 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_61",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,D,A={NF:function NF(d,e){this.a=d
-this.b=e},bGV:function bGV(){},aVH:function aVH(){},
-d0Q(d){switch(d.a){case 0:return D.GZ
-case 2:return D.aaL
-case 1:return D.aaK
-case 3:return C.bzV
-case 4:return D.aaM}},
-Tp(d,e){var x=0,w=B.t(y.a),v,u
-var $async$Tp=B.o(function(f,g){if(f===1)return B.p(g,w)
-while(true)switch(x){case 0:if(e===C.aD1||e===C.aD2)u=!(d.gkq()==="https"||d.gkq()==="http")
-else u=!1
-if(u)throw B.e(B.hv(d,"url","To use an in-app web view, you must provide an http(s) URL."))
-v=$.crA().Oj(d.k(0),new B.ao_(A.d0Q(e),new B.anl(!0,!0,D.ny),null))
-x=1
-break
-case 1:return B.q(v,w)}})
-return B.r($async$Tp,w)}},C
-B=c[0]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,D,B={
+cM4(){return new B.AN(null)},
+AN:function AN(d){this.a=d},
+ak8:function ak8(d,e,f){var _=this
+_.f=d
+_.c=e
+_.d=$
+_.a=f},
+M8:function M8(d,e){var _=this
+_.Q=null
+_.a=d
+_.c=_.b=!1
+_.e=null
+_.I$=0
+_.K$=e
+_.aN$=_.aI$=0}},C
+A=c[0]
 D=c[2]
-A=a.updateHolder(c[48],A)
-C=c[56]
-A.NF.prototype={
-G(){return"LaunchMode."+this.b}}
-A.bGV.prototype={}
-A.aVH.prototype={}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.NF,B.mo)
-w(B.R,[A.bGV,A.aVH])})()
-var y={a:B.a8("H")};(function constants(){C.bTE=new A.aVH()
-C.bTM=new A.bGV()
-C.tT=new A.NF(0,"platformDefault")
-C.aD1=new A.NF(1,"inAppWebView")
-C.aD2=new A.NF(2,"inAppBrowserView")
-C.aD3=new A.NF(3,"externalApplication")
-C.bzV=new B.I0(3,"externalApplication")})()};
+B=a.updateHolder(c[17],B)
+C=c[108]
+B.AN.prototype={
+gZK(){return!1},
+fG(d){return"Contacts"},
+dh(d){return new B.ak8(A.v3(),null,null)}}
+B.ak8.prototype={
+oy(d){var x=$.mw().$0(),w=$.my().$0(),v=$.mx().$0(),u=new A.l_(x,w,v),t=x.dZ()
+u.a=A.eG(A.a([t,w.dZ(),v.dZ()],y.i),y.v)
+x=new B.M8(u,$.am())
+x.mg(d)
+return x}}
+B.M8.prototype={
+ga2L(){return"ContactsViewModel"},
+hj(d){return this.bKd(d)},
+bKd(d){var x=0,w=A.t(y.b),v=this,u,t,s,r,q,p,o,n
+var $async$hj=A.o(function(e,f){if(e===1)return A.p(f,w)
+while(true)switch(x){case 0:n=[]
+for(u=y.k,t=y.z,s=y.w,r=0;r<50;++r){q=A.a([],u)
+p=A.a([],t)
+o=A.b(["contactName","Tom"+r,"lastContacted","1 Feb, 2020","company","Starbucks","contact","nathan.roberts@example.com","phone","(201) 555-0124","leadScore","Online store"],s,s)
+p.push(v.QF("contactName",o))
+p.push(v.QF("lastContacted",o))
+p.push(v.QF("company",o))
+p.push(v.QF("contact",o))
+p.push(v.afP("leadScore",o,"tag"))
+q.push(p)
+D.e.F(n,q)}v.Q=A.cpj(A.b(["headers",C.aWu,"rows",n],s,y.b))
+v.ab()
+return A.q(null,w)}})
+return A.r($async$hj,w)}}
+var z=a.updateTypes(["d(u)"]);(function installTearOffs(){var x=a._instance_1u
+x(B.AN.prototype,"gfL","dh",0)})();(function inheritance(){var x=a.inherit
+x(B.AN,A.fQ)
+x(B.ak8,A.oL)
+x(B.M8,A.hw)})()
+A.el(b.typeUniverse,JSON.parse('{"M8":{"hw":[],"bb":[],"aE":[]},"AN":{"U":[],"d":[]},"ak8":{"e0":["M8"],"U":[],"d":[],"e0.0":"M8"}}'))
+var y={i:A.a8("n<a4<~>>"),k:A.a8("n<E<as<f,@>>>"),z:A.a8("n<as<f,@>>"),w:A.a8("f"),b:A.a8("@"),v:A.a8("~")};(function constants(){var x=a.makeConstList
+C.aWu=A.a(x(["Contact Name","Last Contacted","Company","Contact","Lead Score"]),A.a8("n<f>"))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"EgpycwvzWa8yncdqco95BCc32eo=");
+a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"KI3gITnnbZZb87Thz8gJvcXjNC8=");
