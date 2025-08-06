@@ -2,44 +2,44 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_40",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A,D={
-cQ1(){return new D.BG(null)},
-BG:function BG(d){this.a=d},
-YZ:function YZ(d){this.a=d},
-a8A:function a8A(d){var _=this
+cQb(){return new D.BH(null)},
+BH:function BH(d){this.a=d},
+Z0:function Z0(d){this.a=d},
+a8B:function a8B(d){var _=this
 _.d=d
 _.e="Press the button to fetch data"
 _.c=_.a=null},
-c_X:function c_X(d,e){this.a=d
+c_W:function c_W(d,e){this.a=d
 this.b=e},
-bdS:function bdS(d){this.a=d}},C,E
+bdQ:function bdQ(d){this.a=d}},C,E
 J=c[1]
 B=c[0]
 A=c[2]
 D=a.updateHolder(c[9],D)
 C=c[90]
 E=c[91]
-D.BG.prototype={
+D.BH.prototype={
 fG(d){return"Invoice"},
-dh(d){return new D.YZ(null)}}
-D.YZ.prototype={
-X(){return new D.a8A(new D.bdS(B.cn7(null)))}}
-D.a8A.prototype={
+dh(d){return new D.Z0(null)}}
+D.Z0.prototype={
+X(){return new D.a8B(new D.bdQ(B.cni(null)))}}
+D.a8B.prototype={
 Ys(){var x=0,w=B.u(y.f),v=this,u
 var $async$Ys=B.p(function(d,e){if(d===1)return B.q(e,w)
 while(true)switch(x){case 0:u=D
 x=2
 return B.v(v.d.Yx(),$async$Ys)
-case 2:v.C(new u.c_X(v,e))
+case 2:v.C(new u.c_W(v,e))
 return B.r(null,w)}})
 return B.t($async$Ys,w)},
-v(d){var x=null,w=y.e,v=B.aX(B.cl(8,B.O(B.a([B.m("API Response:",x,x,x,x,x,B.ai(x,x,x,x,x,x,x,x,x,x,x,18,x,x,A.a6,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),new B.x(x,10,x,x),B.m(this.e,x,x,x,x,x,x,x,x,x,x),new B.x(x,20,x,x),B.b7(x,x,"Fetch Data",x,x,x,!1,this.gbFV(),x,x)],w),A.t,x,A.o,A.Z),x,x,A.ax,x),x,x),u=B.cb(A.hj,1)
-return B.O(B.a([v,A.b_,B.cl(8,new B.a5(A.bA,B.O(B.a([C.bC8,A.b_,B.S(x,B.W(B.a([B.hV("assets/product/product-thumb.png",x,x,80,x,80),A.aB,C.ar1,A.cS,C.bLO,A.eD,C.bLJ],w),A.t,A.o,A.p,x,x),A.u,x,x,new B.ar(x,x,u,x,x,x,A.N),x,x,x,x,A.ax,x,x,x),A.b_,B.W(B.a([C.aqX,A.eD,C.aqZ,A.cS,new B.x(400,x,B.O(B.a([C.bC6,A.c0,C.bC7,A.c0,B.S(x,x,A.u,A.hj,x,x,x,1,x,x,x,x,x,x),A.c0,C.bC9],w),A.H,x,A.o,A.p),x)],w),A.t,A.o,A.p,x,x),A.b_,B.W(B.a([A.cS,new B.x(150,x,B.b7(x,x,"Download Invoice",x,x,x,!1,x,x,"primary"),x),A.lW,new B.x(150,x,B.b7(x,x,"Send Invoice",x,x,x,!1,x,x,"success"),x)],w),A.t,A.dy,A.p,x,x)],w),A.t,x,A.o,A.p),x),x,x,x,x)],w),A.t,x,A.o,A.p)}}
-D.bdS.prototype={
+v(d){var x=null,w=y.e,v=B.aX(B.ci(8,B.O(B.a([B.m("API Response:",x,x,x,x,x,B.ai(x,x,x,x,x,x,x,x,x,x,x,18,x,x,A.a6,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),new B.x(x,10,x,x),B.m(this.e,x,x,x,x,x,x,x,x,x,x),new B.x(x,20,x,x),B.b7(x,x,"Fetch Data",x,x,x,!1,this.gbFY(),x,x)],w),A.t,x,A.o,A.Z),x,x,A.ax,x),x,x),u=B.cb(A.hj,1)
+return B.O(B.a([v,A.b_,B.ci(8,new B.a5(A.bA,B.O(B.a([C.bC8,A.b_,B.Q(x,B.V(B.a([B.hV("assets/product/product-thumb.png",x,x,80,x,80),A.aB,C.ar1,A.cS,C.bLO,A.eD,C.bLJ],w),A.t,A.o,A.p,x,x),A.u,x,x,new B.aq(x,x,u,x,x,x,A.N),x,x,x,x,A.ax,x,x,x),A.b_,B.V(B.a([C.aqX,A.eD,C.aqZ,A.cS,new B.x(400,x,B.O(B.a([C.bC6,A.c0,C.bC7,A.c0,B.Q(x,x,A.u,A.hj,x,x,x,1,x,x,x,x,x,x),A.c0,C.bC9],w),A.H,x,A.o,A.p),x)],w),A.t,A.o,A.p,x,x),A.b_,B.V(B.a([A.cS,new B.x(150,x,B.b7(x,x,"Download Invoice",x,x,x,!1,x,x,"primary"),x),A.lX,new B.x(150,x,B.b7(x,x,"Send Invoice",x,x,x,!1,x,x,"success"),x)],w),A.t,A.dy,A.p,x,x)],w),A.t,x,A.o,A.p),x),x,x,x,x)],w),A.t,x,A.o,A.p)}}
+D.bdQ.prototype={
 Yx(){var x=0,w=B.u(y.g),v,u=2,t,s=this,r,q,p,o,n,m,l
 var $async$Yx=B.p(function(d,e){if(d===1){t=e
 x=u}while(true)switch(x){case 0:u=4
 x=7
-return B.v(s.a.aLB(0,"https://agritrack-server.onrender.com/api",B.bmI(null,A.hp,null),y.b),$async$Yx)
+return B.v(s.a.aLD(0,"https://agritrack-server.onrender.com/api",B.bmG(null,A.hp,null),y.b),$async$Yx)
 case 7:r=e
 o=J.ae(r.a)
 v=o
@@ -71,64 +71,64 @@ case 6:case 1:return B.r(v,w)
 case 2:return B.q(t,w)}})
 return B.t($async$Yx,w)}}
 var z=a.updateTypes(["d(o)","a3<~>()"])
-D.c_X.prototype={
+D.c_W.prototype={
 $0(){this.a.e=this.b},
 $S:0};(function installTearOffs(){var x=a._instance_1u,w=a._instance_0u
-x(D.BG.prototype,"gfL","dh",0)
-w(D.a8A.prototype,"gbFV","Ys",1)})();(function inheritance(){var x=a.inherit
-x(D.BG,B.fR)
-x(D.YZ,B.X)
-x(D.a8A,B.a_)
-x(D.c_X,B.fZ)
-x(D.bdS,B.Q)})()
-B.el(b.typeUniverse,JSON.parse('{"YZ":{"X":[],"d":[]},"BG":{"U":[],"d":[]},"a8A":{"a_":["YZ"]}}'))
+x(D.BH.prototype,"gfM","dh",0)
+w(D.a8B.prototype,"gbFY","Ys",1)})();(function inheritance(){var x=a.inherit
+x(D.BH,B.fR)
+x(D.Z0,B.X)
+x(D.a8B,B.a_)
+x(D.c_W,B.fZ)
+x(D.bdQ,B.R)})()
+B.el(b.typeUniverse,JSON.parse('{"Z0":{"X":[],"d":[]},"BH":{"U":[],"d":[]},"a8B":{"a_":["Z0"]}}'))
 var y={e:B.a8("n<d>"),g:B.a8("f"),b:B.a8("@"),f:B.a8("~")};(function constants(){var x=a.makeConstList
-C.bMm=new B.b0("Shipping Method",null,E.m2,null,null,null,null,null,null,null,null,null)
-C.bLC=new B.b0("FedEx - Take up to 3",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bN7=new B.b0("working days.",null,A.qw,null,null,null,null,null,null,null,null,null)
+C.bMm=new B.b0("Shipping Method",null,E.m3,null,null,null,null,null,null,null,null,null)
+C.bLC=new B.b0("FedEx - Take up to 3",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bN7=new B.b0("working days.",null,A.qv,null,null,null,null,null,null,null,null,null)
 C.boN=B.a(x([C.bMm,A.co,C.bLC,A.co,C.bN7]),y.e)
-C.aqX=new B.kS(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.boN,null)
-C.bLQ=new B.b0("Payment Method",null,E.m2,null,null,null,null,null,null,null,null,null)
-C.bMK=new B.b0("Apply Pay Mastercard",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bLF=new B.b0("**** **** **** 5874",null,A.qw,null,null,null,null,null,null,null,null,null)
+C.aqX=new B.kT(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.boN,null)
+C.bLQ=new B.b0("Payment Method",null,E.m3,null,null,null,null,null,null,null,null,null)
+C.bMK=new B.b0("Apply Pay Mastercard",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bLF=new B.b0("**** **** **** 5874",null,A.qv,null,null,null,null,null,null,null,null,null)
 C.boK=B.a(x([C.bLQ,A.co,C.bMK,A.co,C.bLF]),y.e)
-C.aqZ=new B.kS(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.boK,null)
+C.aqZ=new B.kT(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.boK,null)
 C.bMi=new B.b0("Mist Black Triblend",null,null,null,null,null,null,null,null,null,null,null)
 C.bJj=new B.a0(!0,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.bMC=new B.b0("Color: White  Size: Medium",null,C.bJj,null,null,null,null,null,null,null,null,null)
 C.bou=B.a(x([C.bMi,C.bMC]),y.e)
-C.ar1=new B.kS(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bou,null)
+C.ar1=new B.kT(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bou,null)
 C.bLY=new B.b0("Subtotal",null,null,null,null,null,null,null,null,null,null,null)
-C.acT=new B.x(100,null,null,null)
+C.acR=new B.x(100,null,null,null)
 C.bLI=new B.b0("$120.00",null,null,A.nZ,null,null,null,null,null,null,null,null)
-C.ayq=new B.ja(1,A.fd,C.bLI,null)
-C.blb=B.a(x([C.bLY,C.acT,C.ayq]),y.e)
-C.bC6=new B.l3(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.blb,null)
+C.ayq=new B.jb(1,A.fd,C.bLI,null)
+C.blb=B.a(x([C.bLY,C.acR,C.ayq]),y.e)
+C.bC6=new B.l4(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.blb,null)
 C.bNd=new B.b0("Shipping Cost ",null,null,null,null,null,null,null,null,null,null,null)
 C.bM8=new B.b0("(+) $10.00",null,null,A.nZ,null,null,null,null,null,null,null,null)
-C.ayp=new B.ja(1,A.fd,C.bM8,null)
-C.aWE=B.a(x([C.bNd,C.acT,C.ayp]),y.e)
-C.bC7=new B.l3(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.aWE,null)
-C.bM0=new B.b0("From",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bMh=new B.b0("Roger Culhane",null,E.m2,null,null,null,null,null,null,null,null,null)
-C.ae_=new B.b0("Email: contact@example.com",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bLM=new B.b0("Address: 2972 Westheimer Rd. Santa Ana.",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bpe=B.a(x([C.bM0,A.co,C.bMh,A.co,C.ae_,A.co,C.bLM]),y.e)
-C.ar0=new B.kS(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bpe,null)
-C.bMd=new B.b0("To",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bLG=new B.b0("Cristofer Levin",null,E.m2,null,null,null,null,null,null,null,null,null)
-C.bLV=new B.b0("Address: New York, USA 2707 Davis Anenue",null,A.h7,null,null,null,null,null,null,null,null,null)
-C.bls=B.a(x([C.bMd,A.co,C.bLG,A.co,C.ae_,A.co,C.bLV]),y.e)
-C.aqY=new B.kS(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bls,null)
-C.bM_=new B.b0("Order #15478",null,E.m2,null,null,null,null,null,null,null,null,null)
+C.ayp=new B.jb(1,A.fd,C.bM8,null)
+C.aWE=B.a(x([C.bNd,C.acR,C.ayp]),y.e)
+C.bC7=new B.l4(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.aWE,null)
+C.bM0=new B.b0("From",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bMh=new B.b0("Roger Culhane",null,E.m3,null,null,null,null,null,null,null,null,null)
+C.adY=new B.b0("Email: contact@example.com",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bLM=new B.b0("Address: 2972 Westheimer Rd. Santa Ana.",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bpe=B.a(x([C.bM0,A.co,C.bMh,A.co,C.adY,A.co,C.bLM]),y.e)
+C.ar0=new B.kT(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bpe,null)
+C.bMd=new B.b0("To",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bLG=new B.b0("Cristofer Levin",null,E.m3,null,null,null,null,null,null,null,null,null)
+C.bLV=new B.b0("Address: New York, USA 2707 Davis Anenue",null,A.h8,null,null,null,null,null,null,null,null,null)
+C.bls=B.a(x([C.bMd,A.co,C.bLG,A.co,C.adY,A.co,C.bLV]),y.e)
+C.aqY=new B.kT(A.a_,A.o,A.p,A.H,null,A.cK,null,0,C.bls,null)
+C.bM_=new B.b0("Order #15478",null,E.m3,null,null,null,null,null,null,null,null,null)
 C.bmI=B.a(x([C.ar0,A.eD,C.aqY,A.cS,C.bM_]),y.e)
-C.bC8=new B.l3(A.a2,A.o,A.p,A.H,null,A.cK,null,0,C.bmI,null)
+C.bC8=new B.l4(A.a2,A.o,A.p,A.H,null,A.cK,null,0,C.bmI,null)
 C.bLH=new B.b0("Total Payable ",null,null,null,null,null,null,null,null,null,null,null)
 C.bMu=new B.b0("$130.00",null,null,A.nZ,null,null,null,null,null,null,null,null)
-C.ays=new B.ja(1,A.fd,C.bMu,null)
+C.ays=new B.jb(1,A.fd,C.bMu,null)
 C.bmK=B.a(x([C.bLH,C.ays]),y.e)
-C.bC9=new B.l3(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.bmK,null)
+C.bC9=new B.l4(A.a2,A.o,A.p,A.t,null,A.cK,null,0,C.bmK,null)
 C.bLJ=new B.b0("$120.00",null,null,null,null,null,null,null,null,null,null,null)
 C.bLO=new B.b0("Qty: 01",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZzeMLJoD5XOC2PEPoMmkM0zb/tY=");
+a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"l5kKMpC27q/PWC99Z/G/q3PNlgo=");
