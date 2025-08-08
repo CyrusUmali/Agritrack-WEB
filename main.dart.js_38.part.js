@@ -1,287 +1,134 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_38",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-cPJ(){return new C.GB(null,null)},
-GB:function GB(d,e){this.c=d
-this.d=$
-this.a=e},
-ba4:function ba4(d,e){this.a=d
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A,D={
+cR3(){return new D.BM(null)},
+BM:function BM(d){this.a=d},
+Z5:function Z5(d){this.a=d},
+a8J:function a8J(d){var _=this
+_.d=d
+_.e="Press the button to fetch data"
+_.c=_.a=null},
+c0w:function c0w(d,e){this.a=d
 this.b=e},
-b9U:function b9U(){},
-b9V:function b9V(d,e,f){this.a=d
-this.b=e
-this.c=f},
-b9W:function b9W(d){this.a=d},
-ba0:function ba0(){},
-ba1:function ba1(d,e,f){this.a=d
-this.b=e
-this.c=f},
-ba2:function ba2(d,e){this.a=d
-this.b=e},
-ba3:function ba3(d){this.a=d},
-b9X:function b9X(){},
-b9Y:function b9Y(d){this.a=d},
-b9Z:function b9Z(d,e,f){this.a=d
-this.b=e
-this.c=f},
-ba_:function ba_(d){this.a=d},
-y9:function y9(d,e,f,g,h,i){var _=this
-_.Q=d
-_.as=e
-_.at=f
-_.ax=g
-_.CW=_.ch=_.ay=!1
-_.a=h
-_.c=_.b=!1
-_.e=null
-_.I$=0
-_.K$=i
-_.aN$=_.aH$=0}}
+bed:function bed(d){this.a=d}},C,E
 J=c[1]
-A=c[0]
-B=c[2]
-C=a.updateHolder(c[8],C)
-C.GB.prototype={
-MK(d,e,f){var x,w=null,v=A.a([A.Q(w,w,B.u,w,w,new A.ap(w,A.v7(B.cO,new A.ql("assets/loginBG2.jpg",w,w),w),w,w,w,w,B.N),w,w,w,w,w,w,w,w),A.Q(w,w,B.u,A.W(51,B.F.gj(0)>>>16&255,B.F.gj(0)>>>8&255,B.F.gj(0)&255),w,w,w,w,w,w,w,w,w,w),A.aW(A.cc(A.a1S(w,new C.ba4(this,e)),B.G,w,w,w,w,B.a_),w,w)],y.u)
-if(e.ay){x=A.W(B.m.a1(76.5),B.F.gj(0)>>>16&255,B.F.gj(0)>>>8&255,B.F.gj(0)&255)
-v.push(A.Q(w,A.aW(A.kd(w,w,w,w,w,0,w,4,w,new A.iF(B.x,y.e)),w,w),B.u,x,w,w,w,w,w,w,w,w,w,w))}return A.CJ(w,w,new A.bQ(B.al,w,B.ae,B.G,v,w),w,w)},
-oz(d){var x=$.am(),w=$.my().$0(),v=$.mA().$0(),u=$.mz().$0(),t=new A.l2(w,v,u),s=w.dZ()
-t.a=A.eH(A.a([s,v.dZ(),u.dZ()],y.i),y.v)
-x=new C.y9(new A.bj(B.ak,x),new A.bj(B.ak,x),new A.bj(B.ak,x),new A.bj(B.ak,x),t,x)
-x.mg(d)
-return x},
-b_N(d,e){if(e.CW)return this.b0w(d,e)
-else if(e.ch)return this.b0T(d,e)
-else return this.b_J(d,e)},
-b_J(d,e){var x=null,w=new A.aU(x,y.o),v=y.u
-return A.jM(x,A.O(A.a([A.e3(e.Q,x,B.aX,"Enter your email address",x,B.m2,"Email",x,1,x,x,!1,A.zd("assets/signin/email.svg",x,22,22),x,new C.b9U()),B.dJ,new A.x(1/0,x,A.b7(x,x,"Send OTP",x,x,x,!1,new C.b9V(w,e,d),x,"primary"),x),B.b_,A.V(A.a([A.m("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.ej(!1,A.m("Sign In",x,x,x,x,x,A.aj(x,x,B.c5,x,x,x,x,x,x,x,x,x,x,x,B.a8,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ai,x,x,x,x,new C.b9W(d),x,x)],v),B.t,B.aH,B.p,x,x)],v),B.H,x,B.o,B.p),w)},
-b0T(d,e){var x=null,w=new A.aU(x,y.o),v=y.u
-return A.jM(x,A.O(A.a([A.e3(e.as,x,B.aX,"Enter 6-digit OTP",x,B.iF,"OTP Code",x,1,x,x,!1,x,x,new C.ba0()),B.dJ,new A.x(1/0,x,A.b7(x,x,"Verify OTP",x,x,x,!1,new C.ba1(w,e,d),x,"primary"),x),B.b_,A.V(A.a([A.ej(!1,A.m("Resend OTP",x,x,x,x,x,A.aj(x,x,B.c5,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ai,x,x,x,x,new C.ba2(e,d),x,x),A.ej(!1,A.m("Change Email",x,x,x,x,x,A.aj(x,x,B.c5,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ai,x,x,x,x,new C.ba3(e),x,x)],v),B.t,B.cj,B.p,x,x)],v),B.H,x,B.o,B.p),w)},
-b0w(d,e){var x=null,w=new A.aU(x,y.o),v=y.u
-return A.jM(x,A.O(A.a([A.e3(e.at,x,B.aX,"Enter your new password",x,x,"New Password",x,1,!0,x,!1,x,x,new C.b9X()),B.b_,A.e3(e.ax,x,B.aX,"Confirm your new password",x,x,"Confirm Password",x,1,!0,x,!1,x,x,new C.b9Y(e)),B.dJ,new A.x(1/0,x,A.b7(x,x,"Reset Password",x,x,x,!1,new C.b9Z(w,e,d),x,"primary"),x),B.b_,A.V(A.a([A.m("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.ej(!1,A.m("Sign In",x,x,x,x,x,A.aj(x,x,B.c5,x,x,x,x,x,x,x,x,x,x,x,B.a8,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ai,x,x,x,x,new C.ba_(d),x,x)],v),B.t,B.aH,B.p,x,x)],v),B.H,x,B.o,B.p),w)}}
-C.y9.prototype={
-J6(d){return this.aOj(d)},
-aOj(d){var x=0,w=A.u(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l
-var $async$J6=A.p(function(e,f){if(e===1){u=f
-x=v}while(true)switch(x){case 0:m=A.ah(d,!1,y.D)
-v=3
-p=s.Q
-if(p.a.a.length===0){p=A.a8("Email is required")
-throw A.e(p)}s.ay=!0
-s.ae()
-o=y.w
+B=c[0]
+A=c[2]
+D=a.updateHolder(c[9],D)
+C=c[88]
+E=c[89]
+D.BM.prototype={
+fG(d){return"Invoice"},
+dh(d){return new D.Z5(null)}}
+D.Z5.prototype={
+X(){return new D.a8J(new D.bed(B.cod(null)))}}
+D.a8J.prototype={
+Yy(){var x=0,w=B.v(y.f),v=this,u
+var $async$Yy=B.q(function(d,e){if(d===1)return B.r(e,w)
+while(true)switch(x){case 0:u=D
+x=2
+return B.p(v.d.YF(),$async$Yy)
+case 2:v.C(new u.c0w(v,e))
+return B.t(null,w)}})
+return B.u($async$Yy,w)},
+v(d){var x=null,w=y.e,v=B.aT(B.c5(8,B.N(B.a([B.m("API Response:",x,x,x,x,x,B.ai(x,x,x,x,x,x,x,x,x,x,x,18,x,x,A.a7,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),new B.x(x,10,x,x),B.m(this.e,x,x,x,x,x,x,x,x,x,x),new B.x(x,20,x,x),B.b5(x,x,"Fetch Data",x,x,x,!1,this.gbGz(),x,x)],w),A.t,x,A.o,A.X),x,x,A.aw,x),x,x),u=B.c8(A.fU,1)
+return B.N(B.a([v,A.b0,B.c5(8,new B.a2(A.bB,B.N(B.a([C.bC9,A.b0,B.P(x,B.V(B.a([B.hU("assets/product/product-thumb.png",x,x,80,x,80),A.aC,C.ar7,A.cY,C.bLS,A.eG,C.bLN],w),A.t,A.o,A.p,x,x),A.u,x,x,new B.ap(x,x,u,x,x,x,A.N),x,x,x,x,A.aw,x,x,x),A.b0,B.V(B.a([C.ar2,A.eG,C.ar4,A.cY,new B.x(400,x,B.N(B.a([C.bC7,A.c3,C.bC8,A.c3,B.P(x,x,A.u,A.fU,x,x,x,1,x,x,x,x,x,x),A.c3,C.bCa],w),A.H,x,A.o,A.p),x)],w),A.t,A.o,A.p,x,x),A.b0,B.V(B.a([A.cY,new B.x(150,x,B.b5(x,x,"Download Invoice",x,x,x,!1,x,x,"primary"),x),A.lY,new B.x(150,x,B.b5(x,x,"Send Invoice",x,x,x,!1,x,x,"success"),x)],w),A.t,A.dy,A.p,x,x)],w),A.t,x,A.o,A.p),x),x,x,x,x)],w),A.t,x,A.o,A.p)}}
+D.bed.prototype={
+YF(){var x=0,w=B.v(y.g),v,u=2,t,s=this,r,q,p,o,n,m,l
+var $async$YF=B.q(function(d,e){if(d===1){t=e
+x=u}while(true)switch(x){case 0:u=4
+x=7
+return B.p(s.a.aM_(0,"https://agritrack-server.onrender.com/api",B.bn9(null,A.eN,null),y.b),$async$YF)
+case 7:r=e
+o=J.ah(r.a)
+v=o
+x=1
+break
+u=2
 x=6
-return A.v(m.oq("/auth/forgot-password",A.b(["email",B.n.bt(p.a.a)],o,o)),$async$J6)
-case 6:r=f
-if(r.c===200){s.ch=!0
-s.a2e("OTP sent to "+p.a.a,d)
-A.bR("emailController.text")
-A.bR(p.a.a)}else{p=J.z(r.a,"message")
-p=A.a8("Failed to send OTP: "+A.i(p==null?"Unknown error":p))
-throw A.e(p)}t.push(5)
-x=4
 break
-case 3:v=2
-l=u
-q=A.a5(l)
-s.a2d(J.ag(q),d)
-throw l
-t.push(5)
-x=4
+case 4:u=3
+l=t
+o=B.a4(l)
+if(o instanceof B.cW){q=o
+if(q.b!=null){o=q.b
+o=o==null?null:o.c
+m=q.b
+v="Server error: "+B.i(o)+" - "+B.i(m==null?null:m.a)
+x=1
+break}else{v="Network error: "+B.i(q.f)
+x=1
+break}}else{p=o
+o=B.i(p)
+v="Unexpected error: "+o
+x=1
+break}x=6
 break
-case 2:t=[1]
-case 4:v=1
-s.ay=!1
-s.ae()
-x=t.pop()
+case 3:x=2
 break
-case 5:return A.r(null,w)
-case 1:return A.q(u,w)}})
-return A.t($async$J6,w)},
-a14(d){return this.bRC(d)},
-bRC(d){var x=0,w=A.u(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l
-var $async$a14=A.p(function(e,f){if(e===1){u=f
-x=v}while(true)switch(x){case 0:m=A.ah(d,!1,y.D)
-v=3
-p=s.as
-if(p.a.a.length===0){p=A.a8("OTP is required")
-throw A.e(p)}s.ay=!0
-s.ae()
-o=y.w
-x=6
-return A.v(m.oq("/auth/verify-reset-otp",A.b(["email",B.n.bt(s.Q.a.a),"otp",B.n.bt(p.a.a)],o,o)),$async$a14)
-case 6:r=f
-if(r.c===200){s.CW=!0
-J.z(J.z(r.a,"data"),"resetToken")
-s.a2e("OTP verified successfully",d)}else{p=J.z(r.a,"message")
-p=A.a8("Failed to verify OTP: "+A.i(p==null?"Unknown error":p))
-throw A.e(p)}t.push(5)
-x=4
-break
-case 3:v=2
-l=u
-q=A.a5(l)
-s.a2d(J.ag(q),d)
-throw l
-t.push(5)
-x=4
-break
-case 2:t=[1]
-case 4:v=1
-s.ay=!1
-s.ae()
-x=t.pop()
-break
-case 5:return A.r(null,w)
-case 1:return A.q(u,w)}})
-return A.t($async$a14,w)},
-a0e(d){return this.bQ3(d)},
-bQ3(d){var x=0,w=A.u(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l,k
-var $async$a0e=A.p(function(e,f){if(e===1){u=f
-x=v}while(true)switch(x){case 0:l=A.ah(d,!1,y.D)
-v=3
-p=s.at
-o=p.a.a
-n=o.length
-if(n===0||s.ax.a.a.length===0){p=A.a8("Password fields cannot be empty")
-throw A.e(p)}if(o!==s.ax.a.a){p=A.a8("Passwords do not match")
-throw A.e(p)}if(n<8){p=A.a8("Password must be at least 8 characters")
-throw A.e(p)}s.ay=!0
-s.ae()
-o=y.w
-x=6
-return A.v(l.oq("/auth/reset-password",A.b(["email",B.n.bt(s.Q.a.a),"otp",B.n.bt(s.as.a.a),"newPassword",B.n.bt(p.a.a)],o,o)),$async$a0e)
-case 6:r=f
-if(r.c===200)s.a2e("Password reset successfully",d)
-else{p=J.z(r.a,"message")
-p=A.a8("Failed to reset password: "+A.i(p==null?"Unknown error":p))
-throw A.e(p)}t.push(5)
-x=4
-break
-case 3:v=2
-k=u
-q=A.a5(k)
-s.a2d(J.ag(q),d)
-throw k
-t.push(5)
-x=4
-break
-case 2:t=[1]
-case 4:v=1
-s.ay=!1
-s.ae()
-x=t.pop()
-break
-case 5:return A.r(null,w)
-case 1:return A.q(u,w)}})
-return A.t($async$a0e,w)},
-a2e(d,e){var x=null
-$.dl().qk(0,B.fX,e,B.bm,A.m(d,x,3,B.Bp,x,x,x,x,x,x,x),B.cz)},
-a2d(d,e){var x=null
-$.dl().qk(0,B.fX,e,B.bm,A.m(d,x,3,B.Bp,x,x,x,x,x,x,x),B.ba)},
-m(){var x=this,w=x.Q,v=w.K$=$.am()
-w.I$=0
-w=x.as
-w.K$=v
-w.I$=0
-w=x.at
-w.K$=v
-w.I$=0
-w=x.ax
-w.K$=v
-w.I$=0
-x.ahJ()}}
-var z=a.updateTypes(["~()"])
-C.ba4.prototype={
-$2(d,e){var x,w,v=null,u=e.a===B.aV?1/0:440,t=A.hU("assets/DA_image.jpg",v,v,v,v,v),s=this.b
-if(s.CW)x="Set New Password"
-else x=s.ch?"Verify OTP":"Reset Password"
-x=A.m(x,v,v,v,v,v,A.aj(v,v,v,v,v,v,v,v,v,v,v,24,v,v,B.a8,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
-if(s.CW)w="Enter your new password"
-else w=s.ch?"Enter the OTP sent to your email":"Enter your email to receive a password reset OTP"
-return A.Q(v,A.c7(8,A.O(A.a([B.B,new A.x(80,v,t,v),B.dJ,x,B.cq,A.m(w,v,v,v,v,v,A.aj(v,v,B.ag,v,v,v,v,v,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v),B.bp,v,v,v),B.b_,this.a.b_N(d,s)],y.u),B.t,v,B.o,B.X),v,v,new A.a1(20,20,20,20),v),B.u,v,new A.ao(0,u,0,1/0),v,v,v,v,new A.a1(10,10,10,10),v,v,v,v)},
-$S:233}
-C.b9U.prototype={
-$1(d){var x
-if(d==null||J.em(d))return"Email is required"
-x=A.bU("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",!0,!1,!1,!1)
-if(!x.b.test(d))return"Please enter a valid email"
-return null},
-$S:55}
-C.b9V.prototype={
-$0(){var x=0,w=A.u(y.v),v=this
-var $async$$0=A.p(function(d,e){if(d===1)return A.q(e,w)
-while(true)switch(x){case 0:x=v.a.gU().fl()?2:3
-break
-case 2:x=4
-return A.v(v.b.J6(v.c),$async$$0)
-case 4:case 3:return A.r(null,w)}})
-return A.t($async$$0,w)},
-$S:5}
-C.b9W.prototype={
-$0(){var x=y.q
-A.aF(this.a,!1).ae6("/signIn",x,x)},
-$S:0}
-C.ba0.prototype={
-$1(d){if(d==null||J.em(d))return"OTP is required"
-if(!J.h(J.aM(d),6))return"OTP must be 6 digits"
-return null},
-$S:55}
-C.ba1.prototype={
-$0(){var x=0,w=A.u(y.v),v=this
-var $async$$0=A.p(function(d,e){if(d===1)return A.q(e,w)
-while(true)switch(x){case 0:x=v.a.gU().fl()?2:3
-break
-case 2:x=4
-return A.v(v.b.a14(v.c),$async$$0)
-case 4:case 3:return A.r(null,w)}})
-return A.t($async$$0,w)},
-$S:5}
-C.ba2.prototype={
-$0(){var x=0,w=A.u(y.v),v=this
-var $async$$0=A.p(function(d,e){if(d===1)return A.q(e,w)
-while(true)switch(x){case 0:x=2
-return A.v(v.a.J6(v.b),$async$$0)
-case 2:return A.r(null,w)}})
-return A.t($async$$0,w)},
-$S:5}
-C.ba3.prototype={
-$0(){var x=this.a
-x.ch=!1
-x.ae()},
-$S:0}
-C.b9X.prototype={
-$1(d){if(d==null||J.em(d))return"Password is required"
-if(J.cmu(J.aM(d),8))return"Password must be at least 8 characters"
-return null},
-$S:55}
-C.b9Y.prototype={
-$1(d){if(d==null||J.em(d))return"Please confirm your password"
-if(!J.h(d,this.a.at.a.a))return"Passwords do not match"
-return null},
-$S:55}
-C.b9Z.prototype={
-$0(){var x=0,w=A.u(y.v),v=this
-var $async$$0=A.p(function(d,e){if(d===1)return A.q(e,w)
-while(true)switch(x){case 0:x=v.a.gU().fl()?2:3
-break
-case 2:x=4
-return A.v(v.b.a0e(v.c),$async$$0)
-case 4:case 3:return A.r(null,w)}})
-return A.t($async$$0,w)},
-$S:5}
-C.ba_.prototype={
-$0(){var x=y.q
-A.aF(this.a,!1).ae6("/signIn",x,x)},
-$S:0};(function installTearOffs(){var x=a._instance_0u
-x(C.y9.prototype,"gfH","m",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(C.GB,A.e0)
-x(C.ba4,A.ij)
-w(A.fr,[C.b9U,C.ba0,C.b9X,C.b9Y])
-w(A.h_,[C.b9V,C.b9W,C.ba1,C.ba2,C.ba3,C.b9Z,C.ba_])
-x(C.y9,A.xe)})()
-A.el(b.typeUniverse,JSON.parse('{"GB":{"e0":["y9"],"U":[],"d":[],"e0.0":"y9"},"y9":{"bb":[],"aC":[]}}'))
-var y={e:A.a7("iF<B>"),D:A.a7("Aj"),i:A.a7("n<a4<~>>"),u:A.a7("n<d>"),o:A.a7("aU<qG>"),w:A.a7("f"),q:A.a7("R?"),v:A.a7("~")}};
+case 6:case 1:return B.t(v,w)
+case 2:return B.r(t,w)}})
+return B.u($async$YF,w)}}
+var z=a.updateTypes(["d(o)","a5<~>()"])
+D.c0w.prototype={
+$0(){this.a.e=this.b},
+$S:0};(function installTearOffs(){var x=a._instance_1u,w=a._instance_0u
+x(D.BM.prototype,"gfM","dh",0)
+w(D.a8J.prototype,"gbGz","Yy",1)})();(function inheritance(){var x=a.inherit
+x(D.BM,B.fT)
+x(D.Z5,B.X)
+x(D.a8J,B.a_)
+x(D.c0w,B.h0)
+x(D.bed,B.R)})()
+B.el(b.typeUniverse,JSON.parse('{"Z5":{"X":[],"d":[]},"BM":{"U":[],"d":[]},"a8J":{"a_":["Z5"]}}'))
+var y={e:B.a8("n<d>"),g:B.a8("f"),b:B.a8("@"),f:B.a8("~")};(function constants(){var x=a.makeConstList
+C.bMr=new B.b_("Shipping Method",null,E.m4,null,null,null,null,null,null,null,null,null)
+C.bLF=new B.b_("FedEx - Take up to 3",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bNc=new B.b_("working days.",null,A.qF,null,null,null,null,null,null,null,null,null)
+C.boM=B.a(x([C.bMr,A.cp,C.bLF,A.cp,C.bNc]),y.e)
+C.ar2=new B.kS(A.a_,A.o,A.p,A.H,null,A.cM,null,0,C.boM,null)
+C.bLU=new B.b_("Payment Method",null,E.m4,null,null,null,null,null,null,null,null,null)
+C.bMO=new B.b_("Apply Pay Mastercard",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bLI=new B.b_("**** **** **** 5874",null,A.qF,null,null,null,null,null,null,null,null,null)
+C.boJ=B.a(x([C.bLU,A.cp,C.bMO,A.cp,C.bLI]),y.e)
+C.ar4=new B.kS(A.a_,A.o,A.p,A.H,null,A.cM,null,0,C.boJ,null)
+C.bMm=new B.b_("Mist Black Triblend",null,null,null,null,null,null,null,null,null,null,null)
+C.bJl=new B.a1(!0,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.bMH=new B.b_("Color: White  Size: Medium",null,C.bJl,null,null,null,null,null,null,null,null,null)
+C.bot=B.a(x([C.bMm,C.bMH]),y.e)
+C.ar7=new B.kS(A.a_,A.o,A.p,A.H,null,A.cM,null,0,C.bot,null)
+C.bM0=new B.b_("Subtotal",null,null,null,null,null,null,null,null,null,null,null)
+C.acX=new B.x(100,null,null,null)
+C.bLM=new B.b_("$120.00",null,null,A.o1,null,null,null,null,null,null,null,null)
+C.ayw=new B.je(1,A.fh,C.bLM,null)
+C.bla=B.a(x([C.bM0,C.acX,C.ayw]),y.e)
+C.bC7=new B.l5(A.a2,A.o,A.p,A.t,null,A.cM,null,0,C.bla,null)
+C.bNi=new B.b_("Shipping Cost ",null,null,null,null,null,null,null,null,null,null,null)
+C.bMb=new B.b_("(+) $10.00",null,null,A.o1,null,null,null,null,null,null,null,null)
+C.ayv=new B.je(1,A.fh,C.bMb,null)
+C.aWD=B.a(x([C.bNi,C.acX,C.ayv]),y.e)
+C.bC8=new B.l5(A.a2,A.o,A.p,A.t,null,A.cM,null,0,C.aWD,null)
+C.bM3=new B.b_("From",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bMl=new B.b_("Roger Culhane",null,E.m4,null,null,null,null,null,null,null,null,null)
+C.ae5=new B.b_("Email: contact@example.com",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bLQ=new B.b_("Address: 2972 Westheimer Rd. Santa Ana.",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bpd=B.a(x([C.bM3,A.cp,C.bMl,A.cp,C.ae5,A.cp,C.bLQ]),y.e)
+C.ar6=new B.kS(A.a_,A.o,A.p,A.H,null,A.cM,null,0,C.bpd,null)
+C.bMh=new B.b_("To",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.bLK=new B.b_("Cristofer Levin",null,E.m4,null,null,null,null,null,null,null,null,null)
+C.bLY=new B.b_("Address: New York, USA 2707 Davis Anenue",null,A.hc,null,null,null,null,null,null,null,null,null)
+C.blr=B.a(x([C.bMh,A.cp,C.bLK,A.cp,C.ae5,A.cp,C.bLY]),y.e)
+C.ar3=new B.kS(A.a_,A.o,A.p,A.H,null,A.cM,null,0,C.blr,null)
+C.bM2=new B.b_("Order #15478",null,E.m4,null,null,null,null,null,null,null,null,null)
+C.bmH=B.a(x([C.ar6,A.eG,C.ar3,A.cY,C.bM2]),y.e)
+C.bC9=new B.l5(A.a2,A.o,A.p,A.H,null,A.cM,null,0,C.bmH,null)
+C.bLL=new B.b_("Total Payable ",null,null,null,null,null,null,null,null,null,null,null)
+C.bMz=new B.b_("$130.00",null,null,A.o1,null,null,null,null,null,null,null,null)
+C.ayy=new B.je(1,A.fh,C.bMz,null)
+C.bmJ=B.a(x([C.bLL,C.ayy]),y.e)
+C.bCa=new B.l5(A.a2,A.o,A.p,A.t,null,A.cM,null,0,C.bmJ,null)
+C.bLN=new B.b_("$120.00",null,null,null,null,null,null,null,null,null,null,null)
+C.bLS=new B.b_("Qty: 01",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"XSZOiwbD+Pv/HK2hA9sUbCP8hdk=");
+a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"0ydQfIrci5t+NjqURasgZrEOnRw=");

@@ -1,62 +1,58 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_61",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,D,B={
-cNh(){return new B.AU(null)},
-AU:function AU(d){this.a=d},
-akb:function akb(d,e,f){var _=this
-_.f=d
-_.c=e
-_.d=$
-_.a=f},
-Mf:function Mf(d,e){var _=this
-_.Q=null
-_.a=d
-_.c=_.b=!1
-_.e=null
-_.I$=0
-_.K$=e
-_.aN$=_.aH$=0}},C
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,E,F,G,H,C={
+cWf(){return new C.Dq(null)},
+Dq:function Dq(d){this.a=d},
+bFu:function bFu(d){this.a=d},
+bFv:function bFv(d){this.a=d},
+bFw:function bFw(d){this.a=d},
+bFx:function bFx(d){this.a=d},
+bFy:function bFy(){}},D
 A=c[0]
-D=c[2]
-B=a.updateHolder(c[17],B)
-C=c[109]
-B.AU.prototype={
-gZR(){return!1},
-fG(d){return"Contacts"},
-dh(d){return new B.akb(A.v5(),null,null)}}
-B.akb.prototype={
-oz(d){var x=$.my().$0(),w=$.mA().$0(),v=$.mz().$0(),u=new A.l2(x,w,v),t=x.dZ()
-u.a=A.eH(A.a([t,w.dZ(),v.dZ()],y.i),y.v)
-x=new B.Mf(u,$.am())
-x.mg(d)
-return x}}
-B.Mf.prototype={
-ga2S(){return"ContactsViewModel"},
-hk(d){return this.bKm(d)},
-bKm(d){var x=0,w=A.u(y.b),v=this,u,t,s,r,q,p,o,n
-var $async$hk=A.p(function(e,f){if(e===1)return A.q(f,w)
-while(true)switch(x){case 0:n=[]
-for(u=y.k,t=y.z,s=y.w,r=0;r<50;++r){q=A.a([],u)
-p=A.a([],t)
-o=A.b(["contactName","Tom"+r,"lastContacted","1 Feb, 2020","company","Starbucks","contact","nathan.roberts@example.com","phone","(201) 555-0124","leadScore","Online store"],s,s)
-p.push(v.QO("contactName",o))
-p.push(v.QO("lastContacted",o))
-p.push(v.QO("company",o))
-p.push(v.QO("contact",o))
-p.push(v.afW("leadScore",o,"tag"))
-q.push(p)
-D.e.F(n,q)}v.Q=A.cqq(A.b(["headers",C.aWF,"rows",n],s,y.b))
-v.ae()
-return A.r(null,w)}})
-return A.t($async$hk,w)}}
-var z=a.updateTypes(["d(o)"]);(function installTearOffs(){var x=a._instance_1u
-x(B.AU.prototype,"gfM","dh",0)})();(function inheritance(){var x=a.inherit
-x(B.AU,A.fS)
-x(B.akb,A.oQ)
-x(B.Mf,A.hy)})()
-A.el(b.typeUniverse,JSON.parse('{"Mf":{"hy":[],"bb":[],"aC":[]},"AU":{"U":[],"d":[]},"akb":{"e0":["Mf"],"U":[],"d":[],"e0.0":"Mf"}}'))
-var y={i:A.a7("n<a4<~>>"),k:A.a7("n<E<at<f,@>>>"),z:A.a7("n<at<f,@>>"),w:A.a7("f"),b:A.a7("@"),v:A.a7("~")};(function constants(){var x=a.makeConstList
-C.aWF=A.a(x(["Contact Name","Last Contacted","Company","Contact","Lead Score"]),A.a7("n<f>"))})()};
+B=c[2]
+E=c[47]
+F=c[46]
+G=c[49]
+H=c[57]
+C=a.updateHolder(c[19],C)
+D=c[58]
+C.Dq.prototype={
+fG(d){return"Toast"},
+dh(d){return A.N(A.a([new E.wr("Message Toast",this.bjk(d),null),B.b0],y.e),B.t,null,B.o,B.p)},
+bjk(d){var x=null,w=y.p
+return A.N(A.a([A.b5(x,x,A.ax(d,B.W,w).gq2(),x,x,x,!1,new C.bFu(d),x,"info"),B.b0,A.b5(x,x,A.ax(d,B.W,w).gpu(),x,x,x,!1,new C.bFv(d),x,"success"),B.b0,A.b5(x,x,A.ax(d,B.W,w).gqg(),x,x,x,!1,new C.bFw(d),x,"warn"),B.b0,A.b5(x,x,A.ax(d,B.W,w).gpT(),x,x,x,!1,new C.bFx(d),x,"danger"),B.b0,A.b5(x,x,A.ax(d,B.W,w).gwg(),x,x,x,!1,new C.bFy(),x,"dark"),B.b0],y.e),B.t,x,B.o,B.p)}}
+var z=a.updateTypes(["d(o)"])
+C.bFu.prototype={
+$0(){var x=null,w=this.a
+$.da().kR(0,B.en,D.dF,w,!1,B.bm,A.m(A.ax(w,B.W,y.p).gq2(),x,x,x,x,x,x,x,x,x,x),B.bNK)},
+$S:0}
+C.bFv.prototype={
+$0(){var x=null,w=this.a
+$.da().kR(0,B.en,D.dF,w,!1,B.bm,A.m(A.ax(w,B.W,y.p).gpu(),x,x,x,x,x,x,x,x,x,x),B.cw)},
+$S:0}
+C.bFw.prototype={
+$0(){var x=null,w=this.a
+$.da().kR(0,B.en,D.dF,w,!1,B.bm,A.m(A.ax(w,B.W,y.p).gqg(),x,x,x,x,x,x,x,x,x,x),B.J2)},
+$S:0}
+C.bFx.prototype={
+$0(){var x=null,w=this.a
+$.da().kR(0,B.en,D.dF,w,!1,B.bm,A.m(A.ax(w,B.W,y.p).gpT(),x,x,x,x,x,x,x,x,x,x),B.b4)},
+$S:0}
+C.bFy.prototype={
+$0(){var x=0,w=A.v(y.f),v
+var $async$$0=A.q(function(d,e){if(d===1)return A.r(e,w)
+while(true)switch(x){case 0:v=A.fp("https://payamzahedi.com/toastification/",0,null)
+x=2
+return A.p(F.ae9(v),$async$$0)
+case 2:if(e)G.TF(v,H.u6)
+return A.t(null,w)}})
+return A.u($async$$0,w)},
+$S:5};(function installTearOffs(){var x=a._instance_1u
+x(C.Dq.prototype,"gfM","dh",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(C.Dq,A.fT)
+w(A.h0,[C.bFu,C.bFv,C.bFw,C.bFx,C.bFy])})()
+A.el(b.typeUniverse,JSON.parse('{"Dq":{"U":[],"d":[]}}'))
+var y={p:A.a8("hb"),e:A.a8("n<d>"),f:A.a8("~")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"RQgeQPmYw9l8RMe6wlKUPwW9bI4=");
+a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"6a20fOVjWIbH4g3MJZpXue4QJ1s=");
