@@ -1,17 +1,13 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_102",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B={
-cxp(d,e,f){return new A.xo(d,!0,null,e,d,null,f.i("xo<0>"))},
-cqe(d,e,f){var y,x,w
-try{x=A.ae(d,!1,f)
-return x}catch(w){x=A.a4(w)
-if(x instanceof A.Pk){y=x
-if(y.a!==A.cH(f))throw w
-throw A.f(A.pw("        BlocProvider.of() called with a context that does not contain a "+A.cH(f).k(0)+".\n        No ancestor could be found starting from the context that was passed to BlocProvider.of<"+A.cH(f).k(0)+">().\n\n        This can happen if the context you used comes from a widget above the BlocProvider.\n\n        The context used was: "+d.k(0)+"\n        "))}else throw w}}},C
-A=c[0]
-B=a.updateHolder(c[32],B)
-C=c[59]
-var z=a.updateTypes([]);(function constants(){C.aeu=new A.b_("Please fill all fields",null,null,null,null,null,null,null,null,null,null,null)})()};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A,D
+B=c[0]
+C=c[2]
+A=c[59]
+D=c[50]
+var z=a.updateTypes([]);(function constants(){A.Kf=new B.qm("assets/cover/cover-01.png",null,null)
+A.u_=new B.aO(59005,"MaterialIcons",null,!0)
+A.u7=new D.hK('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5.5A3.5 3.5 0 0115.5 9a3.5 3.5 0 01-3.5 3.5A3.5 3.5 0 018.5 9 3.5 3.5 0 0112 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 01-3-3 3 3 0 013-3m14 0a3 3 0 013 3 3 3 0 01-3 3c-1.16 0-2.16-.66-2.66-1.62a5.536 5.536 0 001.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13v-1.75M0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20H0m24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9V20Z"/></svg>',C.a6Y,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_102",e:"endPart",h:b})})($__dart_deferred_initializers__,"3cLIyVXFuFb3IldeBldiYfxCap4=");
+a.eventLog.push({p:"main.dart.js_102",e:"endPart",h:b})})($__dart_deferred_initializers__,"mDqTeIDWtyou4bCQ9e/aOdfcKF0=");
