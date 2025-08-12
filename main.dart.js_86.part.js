@@ -3,8 +3,8 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_86",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
-B=c[76]
+B=c[77]
 var z=a.updateTypes([]);(function constants(){var y=a.makeConstList
-B.yk=A.a(y(["All","Rice","Livestock","Fishery","Corn","HVC","Organic"]),A.a8("n<e>"))})()};
+B.yj=A.a(y(["All","Rice","Livestock","Fishery","Corn","HVC","Organic"]),A.a8("n<e>"))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"g4Vi+J64tSUyKlkE/3iqBUtWADY=");
+a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"QDinH27Mj2Q8jpEDl1IDJ6NTOH4=");
