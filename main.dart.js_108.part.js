@@ -1,15 +1,54 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_108",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A,D
-B=c[0]
-C=c[2]
-A=c[61]
-D=c[52]
-var z=a.updateTypes([]);(function constants(){A.JR=new B.qi("assets/cover/cover-01.png",null,null)
-A.tG=new B.aQ(59005,"MaterialIcons",null,!0)
-A.Om=new B.aQ(61077,"MaterialIcons",null,!1)
-A.tO=new D.hJ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5.5A3.5 3.5 0 0115.5 9a3.5 3.5 0 01-3.5 3.5A3.5 3.5 0 018.5 9 3.5 3.5 0 0112 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 01-3-3 3 3 0 013-3m14 0a3 3 0 013 3 3 3 0 01-3 3c-1.16 0-2.16-.66-2.66-1.62a5.536 5.536 0 001.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13v-1.75M0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20H0m24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9V20Z"/></svg>',C.a6y,null)
-A.aDP=new B.BQ(null,null,null,null,null,null,null,null)})()};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var C,B,A={
+cUy(){return new A.Ce(null)},
+Ce:function Ce(d){this.a=d},
+bmp:function bmp(d){this.a=d},
+bmq:function bmq(d){this.a=d},
+bmn:function bmn(d){this.a=d},
+bmo:function bmo(d){this.a=d},
+bmr:function bmr(d){this.a=d},
+bms:function bms(d){this.a=d},
+bmt:function bmt(d){this.a=d}},D,E
+C=c[0]
+B=c[2]
+A=a.updateHolder(c[28],A)
+D=c[90]
+E=c[46]
+A.Ce.prototype={
+fD(d){return"Modal"},
+da(d){return C.P(C.a([new E.wz("Modal Toast",this.b6g(d),null),B.aQ],y.e),B.t,null,B.o,B.p)},
+b6g(d){var x=null
+return C.P(C.a([C.b6(B.dF,5,"Simple Modal",B.w,x,x,!1,new A.bmp(d),B.dF,x),B.aQ,C.b6(B.dF,5,"Modal with footer",B.w,x,x,!1,new A.bmq(d),B.dF,x),B.aQ,C.b6(B.dF,5,"Medium Modal",B.w,x,x,!1,new A.bmr(d),B.dF,x),B.aQ,C.b6(B.dF,5,"Large Modal",B.w,x,x,!1,new A.bms(d),B.dF,x),B.aQ,C.b6(B.dF,5,"Large Modal Widget",B.w,x,x,!1,new A.bmt(d),B.dF,x)],y.e),B.t,x,B.o,B.p)}}
+var z=a.updateTypes(["d(o)"])
+A.bmp.prototype={
+$0(){C.jw(D.BF,this.a,null,B.nK,null,null,!1,!1,!0,"Simple Modal")},
+$S:0}
+A.bmq.prototype={
+$0(){var x=this.a
+C.jw(D.BF,x,null,B.nK,new A.bmn(x),new A.bmo(x),!0,!1,!0,"Modal with footer")},
+$S:0}
+A.bmn.prototype={
+$0(){C.fc(this.a,"Canceled",B.b7)},
+$S:0}
+A.bmo.prototype={
+$0(){C.fc(this.a,"Success",B.cw)},
+$S:0}
+A.bmr.prototype={
+$0(){C.jw(D.BF,this.a,null,B.dU,null,null,!1,!1,!0,"Medium Modal")},
+$S:0}
+A.bms.prototype={
+$0(){C.jw(D.BF,this.a,null,B.iA,null,null,!1,!1,!0,"Large Modal")},
+$S:0}
+A.bmt.prototype={
+$0(){var x=null,w=this.a
+C.jw(new C.x(x,C.b_(w,x,y.h).w.a.b*0.8,x,x),w,x,B.iA,x,x,!1,!1,!0,"Large Modal")},
+$S:0};(function installTearOffs(){var x=a._instance_1u
+x(A.Ce.prototype,"gfN","da",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.Ce,C.h2)
+w(C.he,[A.bmp,A.bmq,A.bmn,A.bmo,A.bmr,A.bms,A.bmt])})()
+C.eq(b.typeUniverse,JSON.parse('{"Ce":{"V":[],"d":[]}}'))
+var y={e:C.a8("n<d>"),h:C.a8("ig")};(function constants(){D.BF=new C.aW("FlareLine is a free and open-source admin dashboard template built on Flutter providing developers with everything they need to create a feature-rich and data-driven: back-end, dashboard, or admin panel solution for any sort of web/mac/windows/android/iOS project.",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_108",e:"endPart",h:b})})($__dart_deferred_initializers__,"opBOiMTNUFogcgaipYh6ChA5IFI=");
+a.eventLog.push({p:"main.dart.js_108",e:"endPart",h:b})})($__dart_deferred_initializers__,"81y0G6/nswPrVDIxSxzDS0BrQns=");
