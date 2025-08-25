@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_35",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-cUR(){return new C.GV(null,null)},
+cUP(){return new C.GV(null,null)},
 GV:function GV(d,e){this.c=d
 this.d=$
 this.a=e},
@@ -43,22 +43,22 @@ A=c[0]
 B=c[2]
 C=a.updateHolder(c[8],C)
 C.GV.prototype={
-MW(d,e,f){var x,w=null,v=A.a([A.E(w,w,B.u,w,w,new A.a4(w,A.vp(B.cE,new A.qq("assets/loginBG2.jpg",w,w),w),w,w,w,w,B.D),w,w,w,w,w,w,w,w),A.E(w,w,B.u,A.aG(51,B.C.gj(0)>>>16&255,B.C.gj(0)>>>8&255,B.C.gj(0)&255),w,w,w,w,w,w,w,w,w,w),A.aN(A.c8(A.a2S(w,new C.bc_(this,e)),B.H,w,w,w,w,B.Z),w,w)],y.u)
-if(e.ay){x=A.aG(B.m.a9(76.5),B.C.gj(0)>>>16&255,B.C.gj(0)>>>8&255,B.C.gj(0)&255)
+MW(d,e,f){var x,w=null,v=A.a([A.E(w,w,B.u,w,w,new A.a4(w,A.vp(B.cE,new A.qq("assets/loginBG2.jpg",w,w),w),w,w,w,w,B.E),w,w,w,w,w,w,w,w),A.E(w,w,B.u,A.aG(51,B.C.gj(0)>>>16&255,B.C.gj(0)>>>8&255,B.C.gj(0)&255),w,w,w,w,w,w,w,w,w,w),A.aN(A.c8(A.a2S(w,new C.bc_(this,e)),B.H,w,w,w,w,B.Z),w,w)],y.u)
+if(e.ay){x=A.aG(B.m.aa(76.5),B.C.gj(0)>>>16&255,B.C.gj(0)>>>8&255,B.C.gj(0)&255)
 v.push(A.E(w,A.aN(A.jk(w,w,w,w,w,0,w,4,w,new A.ji(B.w,y.e)),w,w),B.u,x,w,w,w,w,w,w,w,w,w,w))}return A.IX(w,w,new A.bU(B.aq,w,B.ai,B.H,v,w),w,!1,w)},
 om(d){var x=$.ap(),w=$.mz().$0(),v=$.mB().$0(),u=$.mA().$0(),t=new A.l9(w,v,u),s=w.dR()
 t.a=A.eD(A.a([s,v.dR(),u.dR()],y.i),y.v)
 x=new C.yp(new A.bo(B.at,x),new A.bo(B.at,x),new A.bo(B.at,x),new A.bo(B.at,x),t,x)
 x.ma(d)
 return x},
-b1e(d,e){if(e.CW)return this.b28(d,e)
-else if(e.ch)return this.b2v(d,e)
+b1e(d,e){if(e.CW)return this.b27(d,e)
+else if(e.ch)return this.b2u(d,e)
 else return this.b17(d,e)},
 b17(d,e){var x=null,w=new A.b_(x,y.o),v=y.u
 return A.jX(x,A.M(A.a([A.dW(e.Q,x,B.b6,"Enter your email address",x,B.mg,"Email",x,1,x,x,!1,A.wz("assets/signin/email.svg",x,22,22),x,x,new C.bbP()),B.dJ,new A.w(1/0,x,A.b5(x,x,"Send OTP",x,x,x,!1,new C.bbQ(w,e,d),x,"primary"),x),B.aQ,A.Q(A.a([A.l("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.ej(!1,A.l("Sign In",x,x,x,x,x,A.a7(x,x,B.b7,x,x,x,x,x,x,x,x,x,x,x,B.a0,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ak,x,x,x,x,new C.bbR(d),x,x)],v),B.r,B.as,B.p,x)],v),B.I,x,B.o,B.p),w)},
-b2v(d,e){var x=null,w=new A.b_(x,y.o),v=y.u
+b2u(d,e){var x=null,w=new A.b_(x,y.o),v=y.u
 return A.jX(x,A.M(A.a([A.dW(e.as,x,B.b6,"Enter 6-digit OTP",x,B.iR,"OTP Code",x,1,x,x,!1,x,x,x,new C.bbW()),B.dJ,new A.w(1/0,x,A.b5(x,x,"Verify OTP",x,x,x,!1,new C.bbX(w,e,d),x,"primary"),x),B.aQ,A.Q(A.a([A.ej(!1,A.l("Resend OTP",x,x,x,x,x,A.a7(x,x,B.b7,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ak,x,x,x,x,new C.bbY(e,d),x,x),A.ej(!1,A.l("Change Email",x,x,x,x,x,A.a7(x,x,B.b7,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ak,x,x,x,x,new C.bbZ(e),x,x)],v),B.r,B.cf,B.p,x)],v),B.I,x,B.o,B.p),w)},
-b28(d,e){var x=null,w=new A.b_(x,y.o),v=y.u
+b27(d,e){var x=null,w=new A.b_(x,y.o),v=y.u
 return A.jX(x,A.M(A.a([A.dW(e.at,x,B.b6,"Enter your new password",x,x,"New Password",x,1,!0,x,!1,x,x,x,new C.bbS()),B.aQ,A.dW(e.ax,x,B.b6,"Confirm your new password",x,x,"Confirm Password",x,1,!0,x,!1,x,x,x,new C.bbT(e)),B.dJ,new A.w(1/0,x,A.b5(x,x,"Reset Password",x,x,x,!1,new C.bbU(w,e,d),x,"primary"),x),B.aQ,A.Q(A.a([A.l("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.ej(!1,A.l("Sign In",x,x,x,x,x,A.a7(x,x,B.b7,x,x,x,x,x,x,x,x,x,x,x,B.a0,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,B.ak,x,x,x,x,new C.bbV(d),x,x)],v),B.r,B.as,B.p,x)],v),B.I,x,B.o,B.p),w)}}
 C.yp.prototype={
 Jb(d){return this.aPw(d)},
@@ -99,8 +99,8 @@ break
 case 5:return A.t(null,w)
 case 1:return A.r(u,w)}})
 return A.u($async$Jb,w)},
-a1g(d){return this.bTC(d)},
-bTC(d){var x=0,w=A.v(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l
+a1g(d){return this.bTB(d)},
+bTB(d){var x=0,w=A.v(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l
 var $async$a1g=A.q(function(e,f){if(e===1){u=f
 x=v}while(true)switch(x){case 0:m=A.ae(d,!1,y.D)
 v=3
@@ -136,8 +136,8 @@ break
 case 5:return A.t(null,w)
 case 1:return A.r(u,w)}})
 return A.u($async$a1g,w)},
-a0r(d){return this.bS3(d)},
-bS3(d){var x=0,w=A.v(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l,k
+a0r(d){return this.bS2(d)},
+bS2(d){var x=0,w=A.v(y.v),v=1,u,t=[],s=this,r,q,p,o,n,m,l,k
 var $async$a0r=A.q(function(e,f){if(e===1){u=f
 x=v}while(true)switch(x){case 0:l=A.ae(d,!1,y.D)
 v=3
@@ -177,9 +177,9 @@ case 5:return A.t(null,w)
 case 1:return A.r(u,w)}})
 return A.u($async$a0r,w)},
 a2u(d,e){var x=null
-$.dR().qe(0,B.eZ,e,B.bJ,A.l(d,x,3,B.BV,x,x,x,x,x,x,x),B.cx)},
+$.dR().qf(0,B.eZ,e,B.bJ,A.l(d,x,3,B.BU,x,x,x,x,x,x,x),B.cx)},
 a2s(d,e){var x=null
-$.dR().qe(0,B.eZ,e,B.bJ,A.l(d,x,3,B.BV,x,x,x,x,x,x,x),B.b9)},
+$.dR().qf(0,B.eZ,e,B.bJ,A.l(d,x,3,B.BU,x,x,x,x,x,x,x),B.b9)},
 m(){var x=this,w=x.Q,v=w.N$=$.ap()
 w.J$=0
 w=x.as
@@ -200,7 +200,7 @@ else x=s.ch?"Verify OTP":"Reset Password"
 x=A.l(x,v,v,v,v,v,A.a7(v,v,v,v,v,v,v,v,v,v,v,24,v,v,B.a0,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
 if(s.CW)w="Enter your new password"
 else w=s.ch?"Enter the OTP sent to your email":"Enter your email to receive a password reset OTP"
-return A.E(v,A.ca(8,A.M(A.a([B.B,new A.w(80,v,t,v),B.dJ,x,B.cu,A.l(w,v,v,v,v,v,A.a7(v,v,B.a7,v,v,v,v,v,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v),B.b5,v,v,v),B.aQ,this.a.b1e(d,s)],y.u),B.r,v,B.o,B.V),v,v,new A.Z(20,20,20,20),v),B.u,v,new A.am(0,u,0,1/0),v,v,v,v,new A.Z(10,10,10,10),v,v,v,v)},
+return A.E(v,A.ca(8,A.M(A.a([B.B,new A.w(80,v,t,v),B.dJ,x,B.ct,A.l(w,v,v,v,v,v,A.a7(v,v,B.a7,v,v,v,v,v,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v),B.b5,v,v,v),B.aQ,this.a.b1e(d,s)],y.u),B.r,v,B.o,B.V),v,v,new A.Z(20,20,20,20),v),B.u,v,new A.am(0,u,0,1/0),v,v,v,v,new A.Z(10,10,10,10),v,v,v,v)},
 $S:279}
 C.bbP.prototype={
 $1(d){var x
@@ -221,7 +221,7 @@ return A.u($async$$0,w)},
 $S:5}
 C.bbR.prototype={
 $0(){var x=y.q
-A.aA(this.a,!1).aeM("/signIn",x,x)},
+A.aB(this.a,!1).aeM("/signIn",x,x)},
 $S:0}
 C.bbW.prototype={
 $1(d){if(d==null||J.ex(d))return"OTP is required"
@@ -253,7 +253,7 @@ x.af()},
 $S:0}
 C.bbS.prototype={
 $1(d){if(d==null||J.ex(d))return"Password is required"
-if(J.crG(J.aM(d),8))return"Password must be at least 8 characters"
+if(J.crE(J.aM(d),8))return"Password must be at least 8 characters"
 return null},
 $S:57}
 C.bbT.prototype={
@@ -273,7 +273,7 @@ return A.u($async$$0,w)},
 $S:5}
 C.bbV.prototype={
 $0(){var x=y.q
-A.aA(this.a,!1).aeM("/signIn",x,x)},
+A.aB(this.a,!1).aeM("/signIn",x,x)},
 $S:0};(function installTearOffs(){var x=a._instance_0u
 x(C.yp.prototype,"gfI","m",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(C.GV,A.e2)
@@ -284,4 +284,4 @@ x(C.yp,A.xA)})()
 A.en(b.typeUniverse,JSON.parse('{"GV":{"e2":["yp"],"V":[],"d":[],"e2.0":"yp"},"yp":{"bc":[],"aD":[]}}'))
 var y={e:A.ab("ji<A>"),D:A.ab("xx"),i:A.ab("n<a5<~>>"),u:A.ab("n<d>"),o:A.ab("b_<qM>"),w:A.ab("e"),q:A.ab("T?"),v:A.ab("~")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"txPJE1JhNCx7VRXwQftmJGZe4s0=");
+a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"wwM4OZ571QjXezCt3OBixYMln7U=");
