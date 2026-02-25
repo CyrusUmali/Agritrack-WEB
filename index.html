@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="AgriTrack - Dashboard">
+  
+  <meta name="google-signin-client_id" content="698351759800-oj9mn3kp30o679e7adtb61i5tkuh5qpo.apps.googleusercontent.com">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="AgriTrack">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <title>AgriTrack Dashboard</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    const baseTag = document.createElement("base");
+    if (window.location.hostname.includes("github.io")) {
+      baseTag.href = "/Agritrack-WEB/";
+    } else {
+      baseTag.href = "/";
+    }
+    document.head.appendChild(baseTag);
+
+    // Single unified function to remove splash
+    let splashRemoved = false;
+    function removeSplash() {
+      if (splashRemoved) return;
+      splashRemoved = true;
+      
+      const splash = document.getElementById('splash');
+      const splashBranding = document.getElementById('splash-branding');
+      
+      if (splash) {
+        splash.style.transition = 'opacity 0.3s ease-out';
+        splash.style.opacity = '0';
+        setTimeout(() => {
+          splash.remove();
+        }, 300);
+      }
+      
+      if (splashBranding) {
+        splashBranding.style.transition = 'opacity 0.3s ease-out';
+        splashBranding.style.opacity = '0';
+        setTimeout(() => {
+          splashBranding.remove();
+        }, 300);
+      }
+      
+      document.body.style.background = "transparent";
+    }
+
+    // Wait for Flutter first frame before removing anything
+    window.addEventListener('flutter-first-frame', function() {
+      // Remove splash and loading animation together
+      removeSplash();
+      
+      const loadingScreen = document.getElementById('loading-screen');
+      if (loadingScreen) {
+        loadingScreen.classList.add('fade-out');
+      }
+      
+      setTimeout(function() {
+        document.body.classList.add('flutter-loaded');
+      }, 500);
+    });
+
+    // Fallback: only remove if Flutter takes too long (increased to 15s for mobile)
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        if (!splashRemoved) {
+          removeSplash();
+        }
+      }, 15000);
+    });
+  </script>
+  
+
+  
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+</head>
+<body>
+  <picture id="splash">
+      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+
+  <div id="loading-screen">
+    <div class="loader-container">
+      <svg height="240" width="240" class="pl" viewBox="0 0 240 240">
+        <circle stroke-linecap="round" stroke-dashoffset="-330" stroke-dasharray="0 660" stroke-width="20" fill="none" r="105" cy="120" cx="120" class="pl__ring pl__ring--a"></circle>
+        <circle stroke-linecap="round" stroke-dashoffset="-110" stroke-dasharray="0 220" stroke-width="20" fill="none" r="35" cy="120" cx="120" class="pl__ring pl__ring--b"></circle>
+        <circle stroke-linecap="round" stroke-dasharray="0 440" stroke-width="20" fill="none" r="70" cy="120" cx="85" class="pl__ring pl__ring--c"></circle>
+        <circle stroke-linecap="round" stroke-dasharray="0 440" stroke-width="20" fill="none" r="70" cy="120" cx="155" class="pl__ring pl__ring--d"></circle>
+      </svg>
+    </div>
+  </div>
+
+  <script src="flutter_bootstrap.js" async=""></script>
+
+  <script>
+    const serviceWorkerVersion = "4101733493";
+    
+    window.addEventListener('load', function () {
+      if ('serviceWorker' in navigator) {
+        // Load Flutter first, service worker registration happens in parallel
+        _flutter.loader
+          .load({
+            serviceWorker: {
+              serviceWorkerVersion: serviceWorkerVersion,
+            }
+          })
+          .then((app) => {
+            return app.runApp();
+          })
+          .catch((error) => {
+            console.error('Error loading Flutter app:', error);
+          });
+
+        navigator.serviceWorker.register('/flutter_service_worker.js')
+          .then((registration) => {
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New content available
+                }
+              });
+            });
+
+            setInterval(() => {
+              registration.update();
+            }, 60 * 60 * 1000);
+
+          })
+          .catch((error) => {
+            // Fallback to network-only mode
+            _flutter.loader.load().then((app) => {
+              return app.runApp();
+            });
+          });
+
+      } else {
+        // Service Workers not supported
+        _flutter.loader.load().then((app) => {
+          return app.runApp();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
