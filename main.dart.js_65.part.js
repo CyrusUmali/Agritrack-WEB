@@ -167,7 +167,7 @@ b4p(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k="totalYieldVolume"
 for(x=J.bw(this.d),w=y.Q,v=y.N,u=y.z,t=0,s=0,r=0,q=0,p=0,o=0;x.B();){n=w.a(J.h(x.gV(x),"stats"))
 if(n==null)n=A.G(v,u)
 m=J.ac(n)
-l=A.kL(m.h(n,"totalLandArea"))
+l=A.kM(m.h(n,"totalLandArea"))
 if(l==null)l=null
 t+=l==null?0:l
 l=A.dD(m.h(n,"totalFarmers"))
@@ -176,38 +176,38 @@ l=A.dD(m.h(n,"totalFarms"))
 r+=l==null?0:l
 l=A.dD(m.h(n,"totalYields"))
 q+=l==null?0:l
-l=A.kL(m.h(n,k))
+l=A.kM(m.h(n,k))
 if(l==null)l=null
 p+=l==null?0:l
-m=A.kL(m.h(n,"totalYieldValue"))
+m=A.kM(m.h(n,"totalYieldValue"))
 if(m==null)m=null
 o+=m==null?0:m}return A.a(["totalLandArea",t,"totalFarmers",s,"totalFarms",r,"totalYields",q,k,p,"totalYieldValue",o],v,u)},
 E(d){var x,w,v,u=this,t=null,s=u.f
 if(s!=null){if(B.o.p(s,"timeout")||B.o.p(s,"network"))x="Connection failed. Please check your internet connection."
 else if(B.o.p(s,"server"))x="Server error. Please try again later."
 else{w=A.bp("^Exception: ",!0,!1,!1,!1)
-x="Failed to load user statistics: "+A.bn(s,w,"")}return A.aC(A.H(A.c([B.l8,B.E,new A.a4(B.eZ,A.i(x,t,t,t,t,t,G.ns,B.az,t,t,t),t),B.E,A.mc(B.j6,B.k3,u.ga5u(),A.em(t,t,t,t,t,t,t,t,t,A.k(d).dx,t,t,t,t,new A.bh(A.F(8),B.J),t,t,t,t,t,t))],y.p),B.r,t,B.aj,B.p),t,t)}v=u.b4p()
+x="Failed to load user statistics: "+A.bn(s,w,"")}return A.aC(A.H(A.c([B.l9,B.E,new A.a4(B.f_,A.i(x,t,t,t,t,t,G.nq,B.aA,t,t,t),t),B.E,A.mc(B.j7,B.k3,u.ga5u(),A.em(t,t,t,t,t,t,t,t,t,A.k(d).dx,t,t,t,t,new A.bh(A.F(8),B.J),t,t,t,t,t,t))],y.p),B.r,t,B.aj,B.p),t,t)}v=u.b4p()
 return A.fU(new C.chd(u,v),new C.che(u,v),new C.chf(u,v))},
 axJ(d,e){var x,w,v,u,t=this
-if(t.e)x=t.xP(B.b_)
+if(t.e)x=t.xP(B.b0)
 else{x=e.h(0,"totalFarmers")
-x=t.xe(d,I.tK,A.l(x==null?"0":x),A.af("Farmers",A.B(d,!1,y.h).a.gY(0)),B.b_,B.kE)}w=t.e?t.xP(B.b_):t.xe(d,D.KS,""+J.b6(t.d),A.af("Sectors",A.B(d,!1,y.h).a.gY(0)),B.b_,B.kB)
-if(t.e)v=t.xP(B.b_)
+x=t.xe(d,I.tF,A.l(x==null?"0":x),A.af("Farmers",A.B(d,!1,y.h).a.gY(0)),B.b0,B.kF)}w=t.e?t.xP(B.b0):t.xe(d,D.KP,""+J.b6(t.d),A.af("Sectors",A.B(d,!1,y.h).a.gY(0)),B.b0,B.kB)
+if(t.e)v=t.xP(B.b0)
 else{v=e.h(0,"totalYieldVolume")
 v=v==null?null:B.h.a0(v,0)
 if(v==null)v="0"
-v=t.xe(d,D.KN,v+" Kg",A.af("Total Production",A.B(d,!1,y.h).a.gY(0)),B.b_,B.eY)}if(t.e)u=t.xP(B.b_)
+v=t.xe(d,D.KK,v+" Kg",A.af("Total Production",A.B(d,!1,y.h).a.gY(0)),B.b0,B.eZ)}if(t.e)u=t.xP(B.b0)
 else{u=e.h(0,"totalLandArea")
 u=u==null?null:B.h.a0(u,2)
 if(u==null)u="0"
-u=t.xe(d,D.L_,u+" Ha",A.af("Total Area",A.B(d,!1,y.h).a.gY(0)),B.b_,B.ec)}return A.w5(1.5,A.c([x,w,v,u],y.p),2,12,12,B.dG,!0)},
-xP(d){var x=null,w=d===B.aE,v=w?100:90,u=w?16:12,t=y.p
-return A.cB(8,new A.a4(new A.a5(u,u,u,u),A.D(A.c([A.z(x,x,B.t,x,x,new A.N(B.aD,x,x,A.F(8),x,x,B.w),x,40,x,x,B.b3,x,x,40),B.ad,A.a1(A.H(A.c([A.z(x,x,B.t,B.aD,x,x,x,16,x,x,x,x,x,100),B.fb,A.z(x,x,B.t,B.aD,x,x,x,20,x,x,x,x,x,80)],t),B.B,x,B.aj,B.p),1)],t),B.r,B.k,B.p,0,x),x),v,x,x)},
-xe(d,e,f,g,h,i){var x,w,v=null,u=h===B.aE,t=u?100:90,s=u?16:12,r=A.z(v,e,B.t,v,v,new A.N(i,v,v,A.F(8),v,v,B.w),v,v,v,v,B.b3,v,v,v),q=A.i(g,v,1,B.a6,v,v,A.O(v,v,v,v,v,v,v,v,v,v,v,u?16:14,v,v,B.a2,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
+u=t.xe(d,D.KX,u+" Ha",A.af("Total Area",A.B(d,!1,y.h).a.gY(0)),B.b0,B.fL)}return A.w5(1.5,A.c([x,w,v,u],y.p),2,12,12,B.dH,!0)},
+xP(d){var x=null,w=d===B.aF,v=w?100:90,u=w?16:12,t=y.p
+return A.cB(8,new A.a4(new A.a5(u,u,u,u),A.D(A.c([A.z(x,x,B.t,x,x,new A.N(B.aE,x,x,A.F(8),x,x,B.w),x,40,x,x,B.b4,x,x,40),B.ad,A.a1(A.H(A.c([A.z(x,x,B.t,B.aE,x,x,x,16,x,x,x,x,x,100),B.fc,A.z(x,x,B.t,B.aE,x,x,x,20,x,x,x,x,x,80)],t),B.B,x,B.aj,B.p),1)],t),B.r,B.k,B.p,0,x),x),v,x,x)},
+xe(d,e,f,g,h,i){var x,w,v=null,u=h===B.aF,t=u?100:90,s=u?16:12,r=A.z(v,e,B.t,v,v,new A.N(i,v,v,A.F(8),v,v,B.w),v,v,v,v,B.b4,v,v,v),q=A.i(g,v,1,B.a6,v,v,A.O(v,v,v,v,v,v,v,v,v,v,v,u?16:14,v,v,B.a2,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
 if(u){x=A.F(4)
-x=A.hm(new A.C(1/0,v,A.i(f,v,1,B.a6,v,v,A.O(v,v,B.aV,v,v,v,v,v,v,v,v,18,v,v,B.al,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v),v),new A.N(B.b7,v,v,x,v,v,B.w),f,B.cn,!1,G.lF,v,B.bn)}else x=A.cS(v,new A.C(1/0,v,A.i(f,v,1,B.a6,v,v,A.O(v,v,B.aV,v,v,v,v,v,v,v,v,16,v,v,B.al,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v),v),B.a3,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new C.ch7(this,d,g,f),v,v,v,v,v,v,!1,B.aU)
+x=A.hm(new A.C(1/0,v,A.i(f,v,1,B.a6,v,v,A.O(v,v,B.aW,v,v,v,v,v,v,v,v,18,v,v,B.am,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v),v),new A.N(B.b8,v,v,x,v,v,B.w),f,B.cm,!1,G.lG,v,B.bn)}else x=A.cS(v,new A.C(1/0,v,A.i(f,v,1,B.a6,v,v,A.O(v,v,B.aW,v,v,v,v,v,v,v,v,16,v,v,B.am,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v),v),B.a3,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new C.ch7(this,d,g,f),v,v,v,v,v,v,!1,B.aV)
 w=y.p
-return A.cB(8,new A.a4(new A.a5(s,s,s,s),A.D(A.c([r,B.ad,A.a1(A.H(A.c([q,B.fb,x],w),B.B,v,B.aj,B.p),1)],w),B.r,B.k,B.p,0,v),v),t,v,v)},
+return A.cB(8,new A.a4(new A.a5(s,s,s,s),A.D(A.c([r,B.ad,A.a1(A.H(A.c([q,B.fc,x],w),B.B,v,B.aj,B.p),1)],w),B.r,B.k,B.p,0,v),v),t,v,v)},
 bw0(d,e,f){var x=null
 A.fb(x,x,!0,x,new C.chc(e,f),d,x,!0,y.z)}}
 C.E4.prototype={
@@ -286,9 +286,9 @@ v=s.c
 v.toString
 v=A.k(v)
 u=y.j
-u=A.I(new A.U(D.bgY,new C.chQ(),u),u.i("aj.E"))
+u=A.I(new A.U(D.bgZ,new C.chQ(),u),u.i("aj.E"))
 t=y.p
-x=A.D(A.c([D.bzn,B.ad,A.z(r,A.OZ(r,v.x1.b,8,r,r,24,!1,48,u,new C.chR(s),r,B.de,w,y.N),B.t,r,r,new A.N(r,r,o,x,r,r,B.w),r,r,r,r,D.aip,r,r,r)],t),B.r,B.k,B.p,0,r)
+x=A.D(A.c([D.bzo,B.ad,A.z(r,A.OZ(r,v.x1.b,8,r,r,24,!1,48,u,new C.chR(s),r,B.de,w,y.N),B.t,r,r,new A.N(r,r,o,x,r,r,B.w),r,r,r,r,D.aiq,r,r,r)],t),B.r,B.k,B.p,0,r)
 o=s.z
 return A.H(A.c([new A.a4(B.jB,x,r),new L.Q1(o,new A.bl(o,y.Y))],t),B.B,r,B.k,B.p)}else{o=o.j(p)
 x=J.h(s.a.c,"name")
@@ -297,23 +297,23 @@ E(d){var x,w,v,u,t=this,s=null,r=t.e
 if(r==null)r=t.a.c
 x=y.p
 w=A.c([],x)
-if(t.r)w.push(B.LK)
+if(t.r)w.push(B.LH)
 else{v=t.x
-if(v!=null)w.push(new A.a4(B.a9,A.H(A.c([A.i("Error: "+v,s,s,s,s,s,s,s,s,s,s),B.fB,A.eT(!1,B.k3,s,s,s,s,s,s,t.gblw(),s,s)],x),B.r,s,B.k,B.p),s))}w.push(new C.aup(r,t.a.d,s))
+if(v!=null)w.push(new A.a4(B.a9,A.H(A.c([A.i("Error: "+v,s,s,s,s,s,s,s,s,s,s),B.fC,A.eT(!1,B.k3,s,s,s,s,s,s,t.gblw(),s,s)],x),B.r,s,B.k,B.p),s))}w.push(new C.aup(r,t.a.d,s))
 w.push(B.bE)
 v=t.a.d
 u=v?B.a_:B.a8
-u=A.c([new A.a08(A.d_N(A.c([new A.eD(7,B.bX,new C.aus(r,s),s)],x),B.r,u,s,B.k,B.p,0,s,s,B.ev),s)],x)
+u=A.c([new A.a08(A.d_N(A.c([new A.eD(7,B.bX,new C.aus(r,s),s)],x),B.r,u,s,B.k,B.p,0,s,s,B.ex),s)],x)
 if(t.a.d)u.push(B.E)
 w.push(new A.a4(B.ag,A.H(A.c([new C.auq(r,v,s),B.bE,new A.a4(B.ag,A.H(u,B.B,s,B.k,B.p),s),B.bE,t.b3R()],x),B.B,s,B.k,B.p),s))
 return A.bq(A.H(w,B.r,s,B.k,B.p),B.G,s,s,s,s,B.a_)}}
 C.aup.prototype={
-E(d){var x=null,w=A.k(d),v=this.d,u=v?80:120,t=v?160:240,s=A.aU(J.h(this.c,"imgUrl")),r=A.z(x,x,B.t,x,x,new A.N(B.vO,A.Hg(B.cu,s!=null&&s.length!==0?new A.i0(s,1,x,B.dp):I.Fs,x),x,x,x,x,B.w),x,t,x,x,x,x,x,1/0)
+E(d){var x=null,w=A.k(d),v=this.d,u=v?80:120,t=v?160:240,s=A.aU(J.h(this.c,"imgUrl")),r=A.z(x,x,B.t,x,x,new A.N(B.vJ,A.Hg(B.ct,s!=null&&s.length!==0?new A.i0(s,1,x,B.dp):I.Fp,x),x,x,x,x,B.w),x,t,x,x,x,x,x,1/0)
 v=v?16:24
-return new A.cc(B.aG,x,B.au,B.t,A.c([r,A.dh(-u/2,A.z(x,x,B.t,x,x,new A.N(x,x,A.aK(w.ax.k2,4),x,x,x,B.bh),x,x,x,x,x,x,x,x),x,x,v,x,x,x)],y.p),x)},
+return new A.cc(B.aH,x,B.av,B.t,A.c([r,A.dh(-u/2,A.z(x,x,B.t,x,x,new A.N(x,x,A.aK(w.ax.k2,4),x,x,x,B.bh),x,x,x,x,x,x,x,x),x,x,v,x,x,x)],y.p),x)},
 giC(){return this.c}}
 C.auq.prototype={
-E(d){return this.d?A.w5(1,this.axL(d),2,12,12,B.dG,!0):this.bw8(d)},
+E(d){return this.d?A.w5(1,this.axL(d),2,12,12,B.dH,!0):this.bw8(d)},
 bw8(d){var x=null,w=this.axL(d),v=A.R(w).i("U<1,a4>")
 w=A.I(new A.U(w,new C.bxF(),v),v.i("aj.E"))
 return A.bq(A.D(w,B.r,B.k,B.p,0,x),B.G,x,x,x,x,B.a8)},
@@ -329,19 +329,19 @@ g=A.af("Total Farms",A.B(d,!1,h).a.gY(0))
 x=J.ac(f)
 s=x.h(f,"totalFarms")
 s=s==null?m:J.ad(s)
-g=n.UX(d,B.cI,g,s==null?k:s)
+g=n.UX(d,B.cH,g,s==null?k:s)
 s=A.af("Total Farmers",A.B(d,!1,h).a.gY(0))
 r=x.h(f,"totalFarmers")
 r=r==null?m:J.ad(r)
-s=n.UX(d,B.oC,s,r==null?k:r)
+s=n.UX(d,B.ox,s,r==null?k:r)
 r=A.af("Avg Farm Size",A.B(d,!1,h).a.gY(0))
-r=n.UX(d,B.j2,r,x.h(f,j)!=null?A.l(x.h(f,j))+" ha":k)
+r=n.UX(d,B.j3,r,x.h(f,j)!=null?A.l(x.h(f,j))+" ha":k)
 q=A.af("Annual Yield",A.B(d,!1,h).a.gY(0))
-x=n.UX(d,B.l0,q,x.h(f,i)!=null?A.l(x.h(f,i))+" kg":k)
+x=n.UX(d,B.l1,q,x.h(f,i)!=null?A.l(x.h(f,i))+" kg":k)
 h=A.af("Growth %",A.B(d,!1,h).a.gY(0))
 q=t!=null
 p=q?B.h.a0(t,1)+"%":k
-o=q&&t>0?E.AA:D.Kh
+o=q&&t>0?E.Ax:D.Ke
 return A.c([g,s,r,x,n.axM(d,o,q&&t>0,h,p)],y.p)},
 axM(d,e,f,g,h){var x,w,v,u,t,s,r=null,q=A.k(d).ax,p=A.F(12),o=q.to
 if(o==null){o=q.A
@@ -349,25 +349,25 @@ if(o==null)o=q.k3}o=o.C(0.2)
 x=q.d
 if(x==null)x=q.b
 w=y.p
-x=A.c([A.z(r,A.Y(e,B.aq,r,r,18),B.t,r,r,new A.N(x,r,r,r,r,r,B.bh),r,r,r,r,B.ei,r,r,r),B.ce],w)
-if(g==="Growth %"){v=f?A.al(B.h.a3(25.5),B.b8.q()>>>16&255,B.b8.q()>>>8&255,B.b8.q()&255):A.al(B.h.a3(25.5),B.aa.q()>>>16&255,B.aa.q()>>>8&255,B.aa.q()&255)
+x=A.c([A.z(r,A.Y(e,B.ar,r,r,18),B.t,r,r,new A.N(x,r,r,r,r,r,B.bh),r,r,r,r,B.ek,r,r,r),B.cd],w)
+if(g==="Growth %"){v=f?A.al(B.h.a2(25.5),B.al.q()>>>16&255,B.al.q()>>>8&255,B.al.q()&255):A.al(B.h.a2(25.5),B.aa.q()>>>16&255,B.aa.q()>>>8&255,B.aa.q()&255)
 u=A.F(12)
-t=f?E.AA:D.Kh
-t=A.Y(t,f?B.b8:B.aa,r,r,14)
+t=f?E.Ax:D.Ke
+t=A.Y(t,f?B.al:B.aa,r,r,14)
 s=f?"Up":"Down"
-x.push(A.z(r,A.D(A.c([t,B.bu,A.i(s,r,r,r,r,r,A.O(r,r,f?B.b8:B.aa,r,r,r,r,r,r,r,r,12,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r)],w),B.r,B.k,B.K,0,r),B.t,r,r,new A.N(v,r,r,u,r,r,B.w),r,r,r,r,B.cn,r,r,r))}v=q.k3
-return A.e2(new A.a4(B.a9,A.H(A.c([A.D(x,B.r,B.k,B.p,0,r),B.aQ,A.i(h,r,r,r,r,r,A.O(r,r,v,r,r,r,r,r,r,r,r,20,r,r,B.R,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r),B.bl,A.i(g,r,r,r,r,r,A.O(r,r,v.C(0.7),r,r,r,r,r,r,r,r,13,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r)],w),B.B,r,B.k,B.p),r),r,r,80,r,new A.bh(p,new A.ap(o,1,B.L,-1)))},
+x.push(A.z(r,A.D(A.c([t,B.bu,A.i(s,r,r,r,r,r,A.O(r,r,f?B.al:B.aa,r,r,r,r,r,r,r,r,12,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r)],w),B.r,B.k,B.K,0,r),B.t,r,r,new A.N(v,r,r,u,r,r,B.w),r,r,r,r,B.cm,r,r,r))}v=q.k3
+return A.e2(new A.a4(B.a9,A.H(A.c([A.D(x,B.r,B.k,B.p,0,r),B.aR,A.i(h,r,r,r,r,r,A.O(r,r,v,r,r,r,r,r,r,r,r,20,r,r,B.Q,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r),B.bl,A.i(g,r,r,r,r,r,A.O(r,r,v.C(0.7),r,r,r,r,r,r,r,r,13,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r,r)],w),B.B,r,B.k,B.p),r),r,r,80,r,new A.bh(p,new A.ap(o,1,B.L,-1)))},
 UX(d,e,f,g){return this.axM(d,e,!0,f,g)},
 giC(){return this.c}}
 C.aus.prototype={
-E(d){var x,w=null,v=A.k(d),u=A.F(16),t=A.Y(M.AC,w,w,w,w),s=this.c,r=J.ac(s),q=A.l(r.h(s,"name")),p=v.ok.r
-p=p==null?w:p.dw(v.ax.k3,B.R)
+E(d){var x,w=null,v=A.k(d),u=A.F(16),t=A.Y(M.Az,w,w,w,w),s=this.c,r=J.ac(s),q=A.l(r.h(s,"name")),p=v.ok.r
+p=p==null?w:p.dw(v.ax.k3,B.Q)
 x=y.p
 p=A.D(A.c([t,B.ad,A.i(q+" Sector Overview",w,w,w,w,w,p,w,w,w,w)],x),B.r,B.k,B.p,0,w)
 q=r.h(s,"description")
-t=this.bw9(d,B.oI,"Description",q==null?"No description available for this sector.":q)
+t=this.bw9(d,B.oD,"Description",q==null?"No description available for this sector.":q)
 s=r.h(s,"mission")
-return A.e2(new A.a4(B.b9,A.H(A.c([p,B.bE,t,B.E,this.axN(d,D.apw,!0,"Mission",s==null?"No mission statement available for this sector.":s),B.E],x),B.B,w,B.k,B.p),w),B.bg,w,24,w,new A.bh(u,B.J))},
+return A.e2(new A.a4(B.b9,A.H(A.c([p,B.bE,t,B.E,this.axN(d,D.apx,!0,"Mission",s==null?"No mission statement available for this sector.":s),B.E],x),B.B,w,B.k,B.p),w),B.bg,w,24,w,new A.bh(u,B.J))},
 axN(d,e,f,g,h){var x,w,v,u,t=null,s=A.k(d),r=s.ax,q=y.p,p=A.c([],q),o=r.k3
 B.e.H(p,A.c([A.Y(e,o.C(0.6),t,t,18),B.Z],q))
 x=s.ok
@@ -387,7 +387,7 @@ giC(){return this.c}}
 C.OC.prototype={
 I(){return"DataViewType."+this.b}}
 C.a52.prototype={
-W(){return new C.adj(D.rE,A.bj(new A.b7(Date.now(),0,!1)),A.c([],y.X))},
+W(){return new C.adj(D.rz,A.bj(new A.b7(Date.now(),0,!1)),A.c([],y.X))},
 guM(){return this.c}}
 C.adj.prototype={
 ac(){this.am()
@@ -430,7 +430,7 @@ return A.o(F.F2(t,s,o,q,p,n,u,r),$async$KQ)
 case 6:case 3:return A.r(null,w)}})
 return A.t($async$KQ,w)},
 bwl(){var x=this.UZ()
-if(x.length!==0)return B.e.ga2(x)
+if(x.length!==0)return B.e.ga3(x)
 return"Mixed Crops"},
 UZ(){if(J.eJ(this.w))return A.c([],y.s)
 var x=J.dg(this.w,new C.ciq(),y.N).iB(0)
@@ -512,17 +512,17 @@ x=p.w
 x=A.i("Failed to load yield data",s,s,s,s,s,x==null?s:x.b_(B.aa),s,s,s,s)
 w=t.y
 w.toString
-return A.aC(A.H(A.c([q,new A.C(s,16,s,s),x,new A.C(s,8,s,s),A.i(w,s,s,s,s,s,p.z,B.az,s,s,s),new A.C(s,16,s,s),A.eT(!1,A.i("Retry",s,s,s,s,s,s,s,s,s,s),s,s,s,s,s,s,t.gbwn(),s,s)],y.p),B.r,s,B.aj,B.p),s,s)}v=t.bwm()
+return A.aC(A.H(A.c([q,new A.C(s,16,s,s),x,new A.C(s,8,s,s),A.i(w,s,s,s,s,s,p.z,B.aA,s,s,s),new A.C(s,16,s,s),A.eT(!1,A.i("Retry",s,s,s,s,s,s,s,s,s,s),s,s,s,s,s,s,t.gbwn(),s,s)],y.p),B.r,s,B.aj,B.p),s,s)}v=t.bwm()
 u=t.UZ()
 q=p.a.a>1200?t.bwi(r,v,u):t.bwh(r,v,u)
 return new A.a4(new A.a5(0,0,0,0),q,s)},
-bwi(d,e,f){var x=this,w=null,v=A.F(16),u=A.Y(B.l2,w,w,w,24),t=d.ok,s=t.r,r=y.p
-s=A.D(A.c([new A.hL(0.6,!1,u,w),B.ad,A.i("Sector Data",w,w,w,w,w,s==null?w:s.d5(B.R),w,w,w,w)],r),B.r,B.k,B.p,0,w)
+bwi(d,e,f){var x=this,w=null,v=A.F(16),u=A.Y(B.l3,w,w,w,24),t=d.ok,s=t.r,r=y.p
+s=A.D(A.c([new A.hL(0.6,!1,u,w),B.ad,A.i("Sector Data",w,w,w,w,w,s==null?w:s.d5(B.Q),w,w,w,w)],r),B.r,B.k,B.p,0,w)
 t=t.z
-v=A.e2(new A.a4(B.aJ,A.H(A.c([s,B.ae,A.i("Agricultural Production Data",w,w,w,w,w,t==null?w:t.b_(d.cy),w,w,w,w)],r),B.B,w,B.k,B.p),w),w,w,3,w,new A.bh(v,B.J))
+v=A.e2(new A.a4(B.aK,A.H(A.c([s,B.ae,A.i("Agricultural Production Data",w,w,w,w,w,t==null?w:t.b_(d.cy),w,w,w,w)],r),B.B,w,B.k,B.p),w),w,w,3,w,new A.bh(v,B.J))
 u=x.d
 u===$&&A.b()
-return A.D(A.c([new A.C(350,w,A.H(A.c([v,B.aZ,new F.qn(f,u,new C.cio(x),!0,x.gaxV(),w),B.aZ,x.axO(d)],r),B.B,w,B.k,B.p),w),B.lA,A.a1(x.axP(d,e),1)],r),B.B,B.k,B.p,0,w)},
+return A.D(A.c([new A.C(350,w,A.H(A.c([v,B.b_,new F.qn(f,u,new C.cio(x),!0,x.gaxV(),w),B.b_,x.axO(d)],r),B.B,w,B.k,B.p),w),B.lB,A.a1(x.axP(d,e),1)],r),B.B,B.k,B.p,0,w)},
 axP(d,e){var x,w,v,u,t=this,s=null,r=t.d
 r===$&&A.b()
 x=t.axW(r)
@@ -530,34 +530,34 @@ r=A.F(16)
 w=A.dT(new C.ci7(t,x,d))
 v=A.aK(d.ch,1)
 u=A.F(12)
-return A.e2(new A.a4(B.ag,A.H(A.c([w,B.aZ,A.z(s,A.ib(A.F(12),t.bwg(e),B.bg),B.t,s,s,new A.N(s,s,v,u,s,s,B.w),s,s,s,s,s,s,s,s)],y.p),B.B,s,B.k,B.p),s),s,s,3,s,new A.bh(r,B.J))},
+return A.e2(new A.a4(B.ag,A.H(A.c([w,B.b_,A.z(s,A.ib(A.F(12),t.bwg(e),B.bg),B.t,s,s,new A.N(s,s,v,u,s,s,B.w),s,s,s,s,s,s,s,s)],y.p),B.B,s,B.k,B.p),s),s,s,3,s,new A.bh(r,B.J))},
 axR(d){var x=this,w=null,v=A.F(8),u=d.ch,t=A.aK(u,1),s=d.ax.a===B.X?d.dx.C(0.1):B.bO
-return A.z(w,A.D(A.c([x.axS(E.mL,x.Q,"Volume",new C.cid(x),d),A.z(w,w,B.t,u,w,w,w,28,w,w,w,w,w,1),x.axS(B.dE,!x.Q,"Productivity",new C.cie(x),d)],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(s,w,t,v,w,w,B.w),w,w,w,w,w,w,w,w)},
+return A.z(w,A.D(A.c([x.axS(E.mJ,x.Q,"Volume",new C.cid(x),d),A.z(w,w,B.t,u,w,w,w,28,w,w,w,w,w,1),x.axS(B.dF,!x.Q,"Productivity",new C.cie(x),d)],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(s,w,t,v,w,w,B.w),w,w,w,w,w,w,w,w)},
 axS(d,e,f,g,h){var x,w=null,v=A.F(8),u=A.F(8),t=e?h.dx.C(0.1):B.D
 if(e)x=h.dx
 else{x=h.k2.f
 x=x==null?w:x.C(0.6)}x=A.Y(d,x,w,w,14)
-return A.bm(!1,v,!0,A.z(w,A.D(A.c([x,B.bu,A.i(f,w,w,w,w,w,A.O(w,w,e?h.dx:w,w,w,w,w,w,w,w,w,11,w,w,B.a2,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w)],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(t,w,w,u,w,w,B.w),w,w,w,w,E.hI,w,w,w),w,!0,w,w,w,w,w,w,w,w,w,w,w,g,w,w,w,w,w,w,w)},
+return A.bm(!1,v,!0,A.z(w,A.D(A.c([x,B.bu,A.i(f,w,w,w,w,w,A.O(w,w,e?h.dx:w,w,w,w,w,w,w,w,w,11,w,w,B.a2,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w)],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(t,w,w,u,w,w,B.w),w,w,w,w,E.hJ,w,w,w),w,!0,w,w,w,w,w,w,w,w,w,w,w,g,w,w,w,w,w,w,w)},
 axU(d){var x=this,w=null,v=A.F(8),u=d.ch,t=A.aK(u,1),s=d.ax.a===B.X?d.dx.C(0.1):B.bO
-return A.z(w,A.D(A.c([x.UY(E.l5,x.f===D.rE,new C.cij(x),d,"Table View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.hJ,x.f===D.rJ,new C.cik(x),d,"Bar Chart View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.oE,x.f===D.rO,new C.cil(x),d,"Line Chart View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.eI,x.f===D.fM,new C.cim(x),d,"Pie Chart View")],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(s,w,t,v,w,w,B.w),w,w,w,w,w,w,w,w)},
+return A.z(w,A.D(A.c([x.UY(E.l6,x.f===D.rz,new C.cij(x),d,"Table View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.hK,x.f===D.rE,new C.cik(x),d,"Bar Chart View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.oz,x.f===D.rJ,new C.cil(x),d,"Line Chart View"),A.z(w,w,B.t,u,w,w,w,32,w,w,w,w,w,1),x.UY(E.eJ,x.f===D.fO,new C.cim(x),d,"Pie Chart View")],y.p),B.r,B.k,B.K,0,w),B.t,w,w,new A.N(s,w,t,v,w,w,B.w),w,w,w,w,w,w,w,w)},
 UY(d,e,f,g,h){var x,w=null,v=A.F(8),u=A.F(8),t=e?g.dx.C(0.1):B.D
 if(e)x=g.dx
 else{x=g.k2.f
-x=x==null?w:x.C(0.6)}return A.hm(A.bm(!1,v,!0,A.z(w,A.Y(d,x,w,w,18),B.t,w,w,new A.N(t,w,w,u,w,w,B.w),w,w,w,w,B.b3,w,w,w),w,!0,w,w,w,w,w,w,w,w,w,w,w,f,w,w,w,w,w,w,w),w,h,w,w,w,w,w)},
+x=x==null?w:x.C(0.6)}return A.hm(A.bm(!1,v,!0,A.z(w,A.Y(d,x,w,w,18),B.t,w,w,new A.N(t,w,w,u,w,w,B.w),w,w,w,w,B.b4,w,w,w),w,!0,w,w,w,w,w,w,w,w,w,w,w,f,w,w,w,w,w,w,w),w,h,w,w,w,w,w)},
 bwg(d){var x,w,v=this,u=null,t=new A.hk(0,!0,u,u,u,A.c([],y.e),$.au()),s=v.f
-if(s===D.rE){s=v.e
+if(s===D.rz){s=v.e
 x=v.d
 if(s){x===$&&A.b()
 s=v.r
 w=new F.zx(x,s,v.a8N(x,s),u)}else{x===$&&A.b()
 s=d.h(0,x)
-w=new F.AF(s==null?A.G(y.N,y.U):s,x,u)}}else if(s===D.rJ){s=v.e
+w=new F.AF(s==null?A.G(y.N,y.U):s,x,u)}}else if(s===D.rE){s=v.e
 x=v.d
 if(s){x===$&&A.b()
 s=v.r
 w=new F.zw(s,v.a8N(x,s),u)}else{x===$&&A.b()
 s=d.h(0,x)
-w=new F.AE(s==null?A.G(y.N,y.U):s,u)}}else if(s===D.rO){s=v.e
+w=new F.AE(s==null?A.G(y.N,y.U):s,u)}}else if(s===D.rJ){s=v.e
 x=v.d
 if(s){x===$&&A.b()
 s=v.r
@@ -566,23 +566,23 @@ s=d.h(0,x)
 w=new F.AG(s==null?A.G(y.N,y.U):s,u)}}else{s=v.w
 x=v.Q
 w=F.aia(v.e?B.i.j(v.r):u,x,s)}s=v.f
-if(s===D.rJ||s===D.rO||s===D.fM)return A.x0(A.bq(new A.C(v.e?800:600,u,w,u),B.G,t,u,u,B.jo,B.a8),t,!0,u,B.fz,8,!0,!0)
+if(s===D.rE||s===D.rJ||s===D.fO)return A.x0(A.bq(new A.C(v.e?800:600,u,w,u),B.G,t,u,u,B.jp,B.a8),t,!0,u,B.fA,8,!0,!0)
 return w},
-axO(d){var x=this,w=null,v=A.F(16),u=d.ax.k3,t=y.p,s=A.D(A.c([A.Y(E.oF,u.C(0.6),w,w,20),B.Z,A.i("Time Period",w,w,w,w,w,A.O(w,w,w,w,w,w,w,w,w,w,w,14,w,w,B.R,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w)],t),B.r,B.k,B.p,0,w),r=A.F(12),q=A.aK(d.ch,1)
-r=A.c([s,B.E,A.z(w,A.D(A.c([A.a1(x.axT("Monthly",E.hM,x.e,new C.ci4(x),d),1),A.a1(x.axT("Yearly",E.hM,!x.e,new C.ci5(x),d),1)],t),B.r,B.k,B.p,0,w),B.t,w,w,new A.N(w,w,q,r,w,w,B.w),w,w,w,w,w,w,w,w)],t)
-if(x.e){u=A.Y(E.oB,u.C(0.6),w,w,20)
+axO(d){var x=this,w=null,v=A.F(16),u=d.ax.k3,t=y.p,s=A.D(A.c([A.Y(E.oA,u.C(0.6),w,w,20),B.Z,A.i("Time Period",w,w,w,w,w,A.O(w,w,w,w,w,w,w,w,w,w,w,14,w,w,B.Q,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w)],t),B.r,B.k,B.p,0,w),r=A.F(12),q=A.aK(d.ch,1)
+r=A.c([s,B.E,A.z(w,A.D(A.c([A.a1(x.axT("Monthly",E.hN,x.e,new C.ci4(x),d),1),A.a1(x.axT("Yearly",E.hN,!x.e,new C.ci5(x),d),1)],t),B.r,B.k,B.p,0,w),B.t,w,w,new A.N(w,w,q,r,w,w,B.w),w,w,w,w,w,w,w,w)],t)
+if(x.e){u=A.Y(E.ow,u.C(0.6),w,w,20)
 s=x.r
 q=d.ok.w
 q=q==null?w:q.d5(B.a2)
-B.e.H(r,A.c([B.E,A.D(A.c([u,B.Z,A.i("Selected Year: "+s,w,w,w,w,w,q,w,w,w,w),B.ce,A.Ap(E.oJ,E.q0,new C.ci6(x),w)],t),B.r,B.k,B.p,0,w)],t))}r.push(B.aZ)
+B.e.H(r,A.c([B.E,A.D(A.c([u,B.Z,A.i("Selected Year: "+s,w,w,w,w,w,q,w,w,w,w),B.cd,A.Ap(E.oE,E.pW,new C.ci6(x),w)],t),B.r,B.k,B.p,0,w)],t))}r.push(B.b_)
 r.push(A.D(A.c([x.axQ(d,!1),B.ae,x.axQ(d,!0)],t),B.r,B.k,B.p,0,w))
-return A.e2(new A.a4(B.aJ,A.H(r,B.B,w,B.k,B.p),w),w,w,3,w,new A.bh(v,B.J))},
-axQ(d,e){var x=null,w=e?B.aa:B.b8,v=e?" PDF":"Excel",u=e?H.mI:B.jF,t=A.Y(u,B.v,x,x,18)
-return new A.C(1/0,x,A.mc(t,A.i(v,x,x,x,x,x,x,x,x,x,x),new C.ci8(this,e),A.em(x,x,w,x,x,x,x,x,x,B.v,x,x,B.ie,x,new A.bh(A.F(12),B.J),x,x,x,x,x,x)),x)},
+return A.e2(new A.a4(B.aK,A.H(r,B.B,w,B.k,B.p),w),w,w,3,w,new A.bh(v,B.J))},
+axQ(d,e){var x=null,w=e?B.aa:B.al,v=e?" PDF":"Excel",u=e?H.mG:B.jF,t=A.Y(u,B.v,x,x,18)
+return new A.C(1/0,x,A.mc(t,A.i(v,x,x,x,x,x,x,x,x,x,x),new C.ci8(this,e),A.em(x,x,w,x,x,x,x,x,x,B.v,x,x,B.ig,x,new A.bh(A.F(12),B.J),x,x,x,x,x,x)),x)},
 axT(d,e,f,g,h){var x,w,v,u=null,t=A.F(12)
 if(f){x=this.c
 x.toString
-x=A.k(x).ax.a===B.X?B.Q:h.dx}else{x=this.c
+x=A.k(x).ax.a===B.X?B.V:h.dx}else{x=this.c
 x.toString
 if(A.k(x).ax.a===B.X)x=u
 else{x=this.c
@@ -613,7 +613,7 @@ u9(d,e,f){var x=A.eV(new C.bxC(J.cy7(f.k1,new C.bxD(e),new C.bxE())),null,y.z)
 A.ah(d,!1).dB(x)},
 rg(d,e,f){var x=null
 J.cy7(f.k1,new C.bxw(e),new C.bxx())
-return A.D(A.c([A.c4(x,x,x,x,x,x,x,B.l9,x,x,x,new C.bxy(f,e,d),x,x,x,x,x)],y.p),B.r,B.k,B.K,0,x)},
+return A.D(A.c([A.c4(x,x,x,x,x,x,x,B.la,x,x,x,new C.bxy(f,e,d),x,x,x,x,x)],y.p),B.r,B.k,B.K,0,x)},
 E(d){return A.fU(new C.bxz(this),new C.bxA(this),new C.bxB(this))},
 bwa(){return A.dT(new C.bxs(this))}}
 C.S_.prototype={
@@ -711,7 +711,7 @@ a9.d=J.ad(J.h(p,"id"))
 g=a9
 J.aO(o,g)
 J.aO(q,o)}b0=new A.qA()
-b0.a=D.aZ1
+b0.a=D.aZ2
 b0.b=q
 f=b0
 t.Q=f
@@ -736,7 +736,7 @@ C.Ms.prototype={
 W(){return new C.aII()}}
 C.aII.prototype={
 E(d){var x=null
-return A.H(A.c([D.bqg,B.E,new A.fr(new C.ciI(),x,x,y.V),B.E,new A.Ku(x),B.E,new A.Kt(x)],y.p),B.r,x,B.k,B.p)}}
+return A.H(A.c([D.bqh,B.E,new A.fr(new C.ciI(),x,x,y.V),B.E,new A.Ku(x),B.E,new A.Kt(x)],y.p),B.r,x,B.k,B.p)}}
 var z=a.updateTypes(["d(y)","ab<~>()","E4(y)","~(e{onCancel:~()?})","~()","e?(e)","Ms(y)","Kv(y,fJ,d?)"])
 C.ch8.prototype={
 $0(){var x=this.a
@@ -755,20 +755,20 @@ x.e=!1},
 $S:0}
 C.chd.prototype={
 $1(d){var x,w,v,u=this.a,t=this.b
-if(u.e)x=u.xP(B.aE)
+if(u.e)x=u.xP(B.aF)
 else{x=t.h(0,"totalFarmers")
-x=u.xe(d,I.tK,A.l(x==null?"0":x),A.af("Farmers",A.B(d,!1,y.h).a.gY(0)),B.aE,B.kE)}x=A.a1(x,1)
-w=A.a1(u.e?u.xP(B.aE):u.xe(d,D.KS,""+J.b6(u.d),A.af("Sectors",A.B(d,!1,y.h).a.gY(0)),B.aE,B.kB),1)
-if(u.e)v=u.xP(B.aE)
+x=u.xe(d,I.tF,A.l(x==null?"0":x),A.af("Farmers",A.B(d,!1,y.h).a.gY(0)),B.aF,B.kF)}x=A.a1(x,1)
+w=A.a1(u.e?u.xP(B.aF):u.xe(d,D.KP,""+J.b6(u.d),A.af("Sectors",A.B(d,!1,y.h).a.gY(0)),B.aF,B.kB),1)
+if(u.e)v=u.xP(B.aF)
 else{v=t.h(0,"totalYieldVolume")
 v=v==null?null:B.h.a0(v,0)
 if(v==null)v="0"
-v=u.xe(d,D.KN,v+" Kg",A.af("Total Production",A.B(d,!1,y.h).a.gY(0)),B.aE,B.eY)}v=A.a1(v,1)
-if(u.e)u=u.xP(B.aE)
+v=u.xe(d,D.KK,v+" Kg",A.af("Total Production",A.B(d,!1,y.h).a.gY(0)),B.aF,B.eZ)}v=A.a1(v,1)
+if(u.e)u=u.xP(B.aF)
 else{t=t.h(0,"totalLandArea")
 t=t==null?null:B.h.a0(t,2)
 if(t==null)t="0"
-t=u.xe(d,D.L_,t+" Ha",A.af("Total Area",A.B(d,!1,y.h).a.gY(0)),B.aE,B.ec)
+t=u.xe(d,D.KX,t+" Ha",A.af("Total Area",A.B(d,!1,y.h).a.gY(0)),B.aF,B.fL)
 u=t}return A.D(A.c([x,B.ad,w,B.ad,v,B.ad,A.a1(u,1)],y.p),B.r,B.k,B.p,0,null)},
 $S:3}
 C.che.prototype={
@@ -783,7 +783,7 @@ x.a.bw0(x.b,x.c,x.d)},
 $S:0}
 C.chc.prototype={
 $1(d){var x=null,w=A.F(6)
-return A.pN(x,B.D,A.cS(x,A.z(x,A.H(A.c([A.i(this.a,x,x,x,x,x,G.nt,x,x,x,x),B.bl,A.i(this.b,x,x,x,x,x,G.nr,x,x,x,x)],y.p),B.B,x,B.k,B.K),B.t,x,x,new A.N(B.b7,x,x,w,x,x,B.w),x,x,x,x,B.cm,x,x,x),B.a3,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,new C.chb(d),x,x,x,x,x,x,!1,B.aU),x,x,x,B.a9,B.h4,x,x,x)},
+return A.pN(x,B.D,A.cS(x,A.z(x,A.H(A.c([A.i(this.a,x,x,x,x,x,G.nr,x,x,x,x),B.bl,A.i(this.b,x,x,x,x,x,G.np,x,x,x,x)],y.p),B.B,x,B.k,B.K),B.t,x,x,new A.N(B.b8,x,x,w,x,x,B.w),x,x,x,x,B.cl,x,x,x),B.a3,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,new C.chb(d),x,x,x,x,x,x,!1,B.aV),x,x,x,B.a9,B.h6,x,x,x)},
 $S:100}
 C.chb.prototype={
 $0(){return A.ah(this.a,!1).aM()},
@@ -825,10 +825,10 @@ $1(d){var x=null
 return A.pR(A.i(d,x,x,x,x,x,x,x,x,x,x),d,y.N)},
 $S:108}
 C.bxF.prototype={
-$1(d){return new A.a4(B.oq,new A.C(200,160,d,null),null)},
+$1(d){return new A.a4(B.ol,new A.C(200,160,d,null),null)},
 $S:301}
 C.ciA.prototype={
-$1(d){var x=null,w=A.F(12),v=A.c([H.m8,B.aZ,A.i(this.a,x,x,x,x,x,K.k1,B.az,x,x,x),B.ae,H.nu],y.p)
+$1(d){var x=null,w=A.F(12),v=A.c([H.m9,B.b_,A.i(this.a,x,x,x,x,x,K.k1,B.aA,x,x,x),B.ae,H.ns],y.p)
 return new A.qL(A.jh(x,x,x,A.H(v,B.r,x,B.k,B.K),x,x,new A.bh(w,B.J),x),new C.ciz(),x)},
 $S:149}
 C.ciz.prototype={
@@ -888,12 +888,12 @@ x.a=this.a.r
 return new A.hQ(new C.ciF(x),null)},
 $S:61}
 C.ciF.prototype={
-$2(d,e){var x,w=null,v=A.k(d).ax.a===B.X?A.k(d).x1.b:B.v,u=A.k(d),t=A.O9(B.v,A.k(d).ax.a===B.X?B.v:B.A,B.Q)
+$2(d,e){var x,w=null,v=A.k(d).ax.a===B.X?A.k(d).x1.b:B.v,u=A.k(d),t=A.O9(B.v,A.k(d).ax.a===B.X?B.v:B.A,B.V)
 u=u.Me(t,new A.tV(A.k(d).ax.a===B.X?B.v:B.A,0,1,w,w,w))
 t=this.a
 x=A.cn(t.a,1,1,0,0,0,0)
-x=A.t_(B.fI,w,A.cn(2000,1,1,0,0,0,0),w,w,A.cn(2030,1,1,0,0,0,0),new C.ciC(t,e),x)
-return A.jh(A.c([A.dU(!1,B.h5,w,w,w,w,w,w,new C.ciD(d),w,w),A.dU(!1,B.k2,w,w,w,w,w,w,new C.ciE(t,d),w,w)],y.p),v,w,new A.C(300,300,new A.kH(u,x,w),w),w,w,w,E.q1)},
+x=A.t_(B.fJ,w,A.cn(2000,1,1,0,0,0,0),w,w,A.cn(2030,1,1,0,0,0,0),new C.ciC(t,e),x)
+return A.jh(A.c([A.dU(!1,B.h7,w,w,w,w,w,w,new C.ciD(d),w,w),A.dU(!1,B.k2,w,w,w,w,w,w,new C.ciE(t,d),w,w)],y.p),v,w,new A.C(300,300,new A.kI(u,x,w),w),w,w,w,E.pX)},
 $S:72}
 C.ciC.prototype={
 $1(d){this.b.$1(new C.ciB(this.a,d))},
@@ -923,47 +923,47 @@ C.ci7.prototype={
 $2(d,e){var x,w,v,u,t,s,r=this,q=null,p="Production Data - ",o="Monthly View",n="Yearly View",m=y.p
 if(e.b<600){x=A.c([],m)
 w=r.b
-if(w!=null&&r.a.f!==D.fM)x.push(A.hF(q,new A.i0(w,1,q,B.dp),q,q,16))
-else if(r.a.f!==D.fM)x.push(A.Y(B.dE,r.c.dx,q,q,24))
+if(w!=null&&r.a.f!==D.fO)x.push(A.hF(q,new A.i0(w,1,q,B.dp),q,q,16))
+else if(r.a.f!==D.fO)x.push(A.Y(B.dF,r.c.dx,q,q,24))
 w=r.a
-if(w.f===D.fM)x.push(A.Y(E.eI,r.c.dx,q,q,24))
-else x.push(B.aC)
+if(w.f===D.fO)x.push(A.Y(E.eJ,r.c.dx,q,q,24))
+else x.push(B.aD)
 x.push(B.Z)
-if(w.f===D.fM)v="Yield Distribution - "
+if(w.f===D.fO)v="Yield Distribution - "
 else{v=w.d
 v===$&&A.b()
 v=p+v}x.push(A.a1(A.i(v,q,q,B.a6,q,q,A.O(q,q,q,q,q,q,q,q,q,q,q,14,q,q,B.ab,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),1))
 x=A.D(x,B.r,B.k,B.p,0,q)
 v=r.c
 u=A.c([w.axU(v),B.ad],m)
-if(w.f===D.fM)u.push(w.axR(v))
+if(w.f===D.fO)u.push(w.axR(v))
 v=v.dx
 t=v.C(0.1)
 s=A.F(20)
 w=w.e?o:n
-u.push(A.z(q,A.i(w,q,q,q,q,q,A.O(q,q,v,q,q,q,q,q,q,q,q,12,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),B.t,q,q,new A.N(t,q,q,s,q,q,B.w),q,q,q,q,B.cG,q,q,q))
+u.push(A.z(q,A.i(w,q,q,q,q,q,A.O(q,q,v,q,q,q,q,q,q,q,q,12,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),B.t,q,q,new A.N(t,q,q,s,q,q,B.w),q,q,q,q,B.cF,q,q,q))
 m=A.H(A.c([x,B.ae,A.aC(A.bq(A.D(u,B.r,B.aj,B.p,0,q),B.G,q,q,q,q,B.a8),q,q)],m),B.B,q,B.k,B.p)}else{m=A.c([],m)
 x=r.b
-if(x!=null&&r.a.f!==D.fM)m.push(A.hF(q,new A.i0(x,1,q,B.dp),q,q,16))
-else if(r.a.f!==D.fM)m.push(A.Y(B.dE,r.c.dx,q,q,24))
+if(x!=null&&r.a.f!==D.fO)m.push(A.hF(q,new A.i0(x,1,q,B.dp),q,q,16))
+else if(r.a.f!==D.fO)m.push(A.Y(B.dF,r.c.dx,q,q,24))
 x=r.a
-if(x.f===D.fM)m.push(A.Y(E.eI,r.c.dx,q,q,24))
-else m.push(B.aC)
+if(x.f===D.fO)m.push(A.Y(E.eJ,r.c.dx,q,q,24))
+else m.push(B.aD)
 m.push(B.Z)
-if(x.f===D.fM)w="Yield Distribution -"
+if(x.f===D.fO)w="Yield Distribution -"
 else{w=x.d
 w===$&&A.b()
 w=p+w}m.push(A.a1(A.i(w,q,q,q,q,q,A.O(q,q,q,q,q,q,q,q,q,q,q,14,q,q,B.ab,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),1))
-m.push(B.ce)
+m.push(B.cd)
 w=r.c
 m.push(x.axU(w))
 m.push(B.ad)
-if(x.f===D.fM)m.push(x.axR(w))
+if(x.f===D.fO)m.push(x.axR(w))
 else{w=w.dx
 v=w.C(0.1)
 u=A.F(20)
 x=x.e?o:n
-m.push(A.z(q,A.i(x,q,q,q,q,q,A.O(q,q,w,q,q,q,q,q,q,q,q,12,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),B.t,q,q,new A.N(v,q,q,u,q,q,B.w),q,q,q,q,B.cG,q,q,q))}m=A.D(m,B.r,B.k,B.p,0,q)}return m},
+m.push(A.z(q,A.i(x,q,q,q,q,q,A.O(q,q,w,q,q,q,q,q,q,q,q,12,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),B.t,q,q,new A.N(v,q,q,u,q,q,B.w),q,q,q,q,B.cF,q,q,q))}m=A.D(m,B.r,B.k,B.p,0,q)}return m},
 $S:128}
 C.cid.prototype={
 $0(){var x=this.a
@@ -984,28 +984,28 @@ $0(){var x=this.a
 return x.t(new C.cii(x))},
 $S:0}
 C.cii.prototype={
-$0(){return this.a.f=D.rE},
+$0(){return this.a.f=D.rz},
 $S:0}
 C.cik.prototype={
 $0(){var x=this.a
 return x.t(new C.cih(x))},
 $S:0}
 C.cih.prototype={
-$0(){return this.a.f=D.rJ},
+$0(){return this.a.f=D.rE},
 $S:0}
 C.cil.prototype={
 $0(){var x=this.a
 return x.t(new C.cig(x))},
 $S:0}
 C.cig.prototype={
-$0(){return this.a.f=D.rO},
+$0(){return this.a.f=D.rJ},
 $S:0}
 C.cim.prototype={
 $0(){var x=this.a
 return x.t(new C.cif(x))},
 $S:0}
 C.cif.prototype={
-$0(){return this.a.f=D.fM},
+$0(){return this.a.f=D.fO},
 $S:0}
 C.ci4.prototype={
 $0(){var x=0,w=A.u(y.H),v=this,u,t
@@ -1119,7 +1119,7 @@ x.D(0,new A.nT())
 return x},
 $S:76}
 C.by5.prototype={
-$1(d){return D.bFD},
+$1(d){return D.bFE},
 $S:z+6}
 C.ciI.prototype={
 $3(d,e,f){var x=e.a
@@ -1152,19 +1152,19 @@ w(C.S_,A.is)})()
 A.jE(b.typeUniverse,JSON.parse('{"a51":{"a3":[],"d":[]},"adf":{"a6":["a51"]},"E4":{"aa":[],"d":[]},"V7":{"a3":[],"d":[]},"adh":{"a6":["V7"]},"aup":{"aa":[],"d":[]},"auq":{"aa":[],"d":[]},"aus":{"aa":[],"d":[]},"a52":{"a3":[],"d":[]},"adj":{"a6":["a52"]},"Kv":{"a3":[],"d":[]},"S_":{"is":[],"bg":[],"aP":[]},"adi":{"a6":["Kv"]},"auo":{"er":["S_"],"aa":[],"d":[],"er.0":"S_"},"Ms":{"a3":[],"d":[]},"E5":{"aa":[],"d":[]},"aII":{"a6":["Ms"]}}'))
 var y=(function rtii(){var x=A.ay
 return{V:x("fr<fJ>"),J:x("A<mO>"),M:x("A<ab<~>>"),q:x("A<P<bJ>>"),t:x("A<am<e,@>>"),e:x("A<o2>"),a:x("A<iX>"),s:x("A<e>"),f:x("A<bJ>"),p:x("A<d>"),X:x("A<fa>"),h:x("iS"),W:x("P<fa>"),U:x("am<e,L>"),v:x("am<e,am<e,L>>"),j:x("U<e,es<e>>"),w:x("hZ"),F:x("mq"),N:x("e"),Y:x("bl<e>"),k:x("bl<n>"),d:x("fJ"),Z:x("ns"),O:x("qP"),y:x("V"),i:x("L"),z:x("@"),S:x("n"),g:x("P<@>?"),Q:x("am<e,@>?"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.rE=new C.OC(0,"table")
-D.rJ=new C.OC(1,"barchart")
-D.rO=new C.OC(2,"linechart")
-D.fM=new C.OC(3,"piechart")
-D.aip=new A.a5(12,4,12,4)
-D.Kh=new A.aA(59005,"MaterialIcons",null,!0)
-D.apw=new A.aA(61563,"MaterialIcons",null,!1)
-D.KN=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8l6.5 3.78Z"/></svg>',B.d3,null)
-D.KS=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7H12Z"/></svg>',B.ll,null)
-D.L_=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m15 19-6-2.11V5l6 2.11M20.5 3h-.16L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 00.5.5c.05 0 .11 0 .16-.03L9 18.9l6 2.1 5.64-1.9c.21-.1.36-.25.36-.48V3.5a.5.5 0 00-.5-.5Z"/></svg>',B.c4,null)
-D.aZ1=x(["Sector Name","Land Area","Area Harvested","Farmers","Farms","Yield Volume","Production","Action"],y.s)
-D.bgY=x(["Sampaloc Lake","Bunot Lake","Kalibato Lake","Pandin Lake","Yambo Lake","Mojicap Lake","Palakpakin Lake"],y.s)
-D.bqg=new C.a51(null)
-D.bzn=new A.bs("Select Lake: ",null,K.k1,null,null,null,null,null,null,null,null,null)
-D.bFD=new C.Ms(null)})()};
-(a=>{a["QWjvVLZuaXx8hZ4GZmaTBlUb4uU="]=a.current})($__dart_deferred_initializers__);
+D.rz=new C.OC(0,"table")
+D.rE=new C.OC(1,"barchart")
+D.rJ=new C.OC(2,"linechart")
+D.fO=new C.OC(3,"piechart")
+D.aiq=new A.a5(12,4,12,4)
+D.Ke=new A.aA(59005,"MaterialIcons",null,!0)
+D.apx=new A.aA(61563,"MaterialIcons",null,!1)
+D.KK=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8l6.5 3.78Z"/></svg>',B.d3,null)
+D.KP=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7H12Z"/></svg>',B.lm,null)
+D.KX=new A.hX('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m15 19-6-2.11V5l6 2.11M20.5 3h-.16L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 00.5.5c.05 0 .11 0 .16-.03L9 18.9l6 2.1 5.64-1.9c.21-.1.36-.25.36-.48V3.5a.5.5 0 00-.5-.5Z"/></svg>',B.cP,null)
+D.aZ2=x(["Sector Name","Land Area","Area Harvested","Farmers","Farms","Yield Volume","Production","Action"],y.s)
+D.bgZ=x(["Sampaloc Lake","Bunot Lake","Kalibato Lake","Pandin Lake","Yambo Lake","Mojicap Lake","Palakpakin Lake"],y.s)
+D.bqh=new C.a51(null)
+D.bzo=new A.bs("Select Lake: ",null,K.k1,null,null,null,null,null,null,null,null,null)
+D.bFE=new C.Ms(null)})()};
+(a=>{a["7QYipn/TQ3epTg8h52XVBfAgSNs="]=a.current})($__dart_deferred_initializers__);

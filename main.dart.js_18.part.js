@@ -41,23 +41,23 @@ A=c[0]
 B=c[2]
 C=a.updateHolder(c[5],C)
 C.HU.prototype={
-WE(d,e,f){var x,w=null,v=A.c([A.z(w,w,B.t,w,w,new A.N(w,A.Hg(B.cu,new A.vx("assets/loginBG2.jpg",w,w),w),w,w,w,w,B.w),w,w,w,w,w,w,w,w),A.z(w,w,B.t,A.al(51,B.A.q()>>>16&255,B.A.q()>>>8&255,B.A.q()&255),w,w,w,w,w,w,w,w,w,w),A.aC(A.bq(A.a4v(w,new C.b8A(this,e)),B.G,w,w,w,w,B.a_),w,w)],y.u)
-if(e.ay){x=A.al(B.h.a3(76.5),B.A.q()>>>16&255,B.A.q()>>>8&255,B.A.q()&255)
-v.push(A.z(w,A.aC(A.hq(w,w,w,w,w,w,w,w,w,new A.ha(B.v,y.e)),w,w),B.t,x,w,w,w,w,w,w,w,w,w,w))}return A.Ki(w,w,new A.cc(B.aG,w,B.au,B.G,v,w),w,!1,w)},
+WE(d,e,f){var x,w=null,v=A.c([A.z(w,w,B.t,w,w,new A.N(w,A.Hg(B.ct,new A.vx("assets/loginBG2.jpg",w,w),w),w,w,w,w,B.w),w,w,w,w,w,w,w,w),A.z(w,w,B.t,A.al(51,B.A.q()>>>16&255,B.A.q()>>>8&255,B.A.q()&255),w,w,w,w,w,w,w,w,w,w),A.aC(A.bq(A.a4v(w,new C.b8A(this,e)),B.G,w,w,w,w,B.a_),w,w)],y.u)
+if(e.ay){x=A.al(B.h.a2(76.5),B.A.q()>>>16&255,B.A.q()>>>8&255,B.A.q()&255)
+v.push(A.z(w,A.aC(A.hq(w,w,w,w,w,w,w,w,w,new A.ha(B.v,y.e)),w,w),B.t,x,w,w,w,w,w,w,w,w,w,w))}return A.Ki(w,w,new A.cc(B.aH,w,B.av,B.G,v,w),w,!1,w)},
 oB(d){var x=$.au(),w=$.op().$0(),v=$.or().$0(),u=$.oq().$0(),t=new A.mj(w,v,u),s=w.dl()
 t.a=A.f5(A.c([s,v.dl(),u.dl()],y.i),y.v)
-x=new C.z2(new A.bb(B.ap,x),new A.bb(B.ap,x),new A.bb(B.ap,x),new A.bb(B.ap,x),t,x)
+x=new C.z2(new A.bb(B.aq,x),new A.bb(B.aq,x),new A.bb(B.aq,x),new A.bb(B.aq,x),t,x)
 x.n4(d)
 return x},
 b2a(d,e){if(e.CW)return this.b3b(d,e)
 else if(e.ch)return this.b3E(d,e)
 else return this.b1Z(d,e)},
 b1Z(d,e){var x=null,w=new A.b0(x,y.o),v=y.u
-return A.jR(x,A.H(A.c([A.hM(e.Q,B.aa,-20,12,12,x,"Enter your email address",x,B.jf,"Email",x,1,x,x,x,!0,A.bm(!1,x,!0,A.Y(B.tC,B.aq,x,x,20),x,!0,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x),x,x,new C.b8p()),B.e9,new A.C(1/0,x,A.cp(x,"Send OTP",x,x,x,!1,new C.b8q(w,e,d),x,"primary"),x),B.aZ,A.D(A.c([A.i("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.dU(!1,A.i("Sign In",x,x,x,x,x,A.O(x,x,B.Q,x,x,x,x,x,x,x,x,x,x,x,B.R,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8r(d),x,x)],v),B.r,B.aj,B.p,0,x)],v),B.B,x,B.k,B.p),w)},
+return A.jR(x,A.H(A.c([A.hM(e.Q,B.aa,-20,12,12,x,"Enter your email address",x,B.jg,"Email",x,1,x,x,x,!0,A.bm(!1,x,!0,A.Y(B.tx,B.ar,x,x,20),x,!0,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x),x,x,new C.b8p()),B.eb,new A.C(1/0,x,A.cp(x,"Send OTP",x,x,x,!1,new C.b8q(w,e,d),x,"primary"),x),B.b_,A.D(A.c([A.i("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.dU(!1,A.i("Sign In",x,x,x,x,x,A.O(x,x,B.V,x,x,x,x,x,x,x,x,x,x,x,B.Q,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8r(d),x,x)],v),B.r,B.aj,B.p,0,x)],v),B.B,x,B.k,B.p),w)},
 b3E(d,e){var x=null,w=new A.b0(x,y.o),v=y.u
-return A.jR(x,A.H(A.c([A.hM(e.as,B.aa,x,x,x,x,"Enter 6-digit OTP",x,B.hq,"OTP Code",x,1,x,x,x,!0,x,x,x,new C.b8w()),B.e9,new A.C(1/0,x,A.cp(x,"Verify OTP",x,x,x,!1,new C.b8x(w,e,d),x,"primary"),x),B.aZ,A.D(A.c([A.dU(!1,A.i("Resend OTP",x,x,x,x,x,A.O(x,x,B.Q,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8y(e,d),x,x),A.dU(!1,A.i("Change Email",x,x,x,x,x,A.O(x,x,B.Q,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8z(e),x,x)],v),B.r,B.bz,B.p,0,x)],v),B.B,x,B.k,B.p),w)},
+return A.jR(x,A.H(A.c([A.hM(e.as,B.aa,x,x,x,x,"Enter 6-digit OTP",x,B.hr,"OTP Code",x,1,x,x,x,!0,x,x,x,new C.b8w()),B.eb,new A.C(1/0,x,A.cp(x,"Verify OTP",x,x,x,!1,new C.b8x(w,e,d),x,"primary"),x),B.b_,A.D(A.c([A.dU(!1,A.i("Resend OTP",x,x,x,x,x,A.O(x,x,B.V,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8y(e,d),x,x),A.dU(!1,A.i("Change Email",x,x,x,x,x,A.O(x,x,B.V,x,x,x,x,x,x,x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8z(e),x,x)],v),B.r,B.bz,B.p,0,x)],v),B.B,x,B.k,B.p),w)},
 b3b(d,e){var x=null,w=new A.b0(x,y.o),v=y.u
-return A.jR(x,A.H(A.c([A.hM(e.at,B.aa,x,x,x,x,"Enter your new password",x,x,"New Password",x,1,!0,x,x,!0,x,x,x,new C.b8s()),B.aZ,A.hM(x,B.aa,x,x,x,x,"Confirm your new password",x,x,"Confirm Password",x,1,!0,x,x,!0,x,x,x,new C.b8t(e)),B.e9,new A.C(1/0,x,A.cp(x,"Reset Password",x,x,x,!1,new C.b8u(w,e,d),x,"primary"),x),B.aZ,A.D(A.c([A.i("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.dU(!1,A.i("Sign In",x,x,x,x,x,A.O(x,x,B.Q,x,x,x,x,x,x,x,x,x,x,x,B.R,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8v(d),x,x)],v),B.r,B.aj,B.p,0,x)],v),B.B,x,B.k,B.p),w)}}
+return A.jR(x,A.H(A.c([A.hM(e.at,B.aa,x,x,x,x,"Enter your new password",x,x,"New Password",x,1,!0,x,x,!0,x,x,x,new C.b8s()),B.b_,A.hM(x,B.aa,x,x,x,x,"Confirm your new password",x,x,"Confirm Password",x,1,!0,x,x,!0,x,x,x,new C.b8t(e)),B.eb,new A.C(1/0,x,A.cp(x,"Reset Password",x,x,x,!1,new C.b8u(w,e,d),x,"primary"),x),B.b_,A.D(A.c([A.i("Remember your password?",x,x,x,x,x,x,x,x,x,x),A.dU(!1,A.i("Sign In",x,x,x,x,x,A.O(x,x,B.V,x,x,x,x,x,x,x,x,x,x,x,B.Q,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),x,x,x,x,x,x,new C.b8v(d),x,x)],v),B.r,B.aj,B.p,0,x)],v),B.B,x,B.k,B.p),w)}}
 C.z2.prototype={
 HI(d){return this.aPZ(d)},
 aPZ(d){var x=0,w=A.u(y.v),v=1,u=[],t=[],s=this,r,q,p,o,n,m,l,k,j
@@ -197,9 +197,9 @@ case 500:return"Server error. Please try again later."
 default:s=d.f
 return s==null?"An unexpected error occurred":s}},
 a2J(d,e){var x=null
-$.dP().pI(0,B.ft,e,B.bF,A.i(d,x,3,B.wH,x,x,x,x,x,x,x),B.bP)},
+$.dP().pI(0,B.fu,e,B.bF,A.i(d,x,3,B.wC,x,x,x,x,x,x,x),B.bP)},
 CV(d,e){var x=null
-$.dP().pI(0,B.ft,e,B.bF,A.i(d,x,3,B.wH,x,x,x,x,x,x,x),B.as)},
+$.dP().pI(0,B.fu,e,B.bF,A.i(d,x,3,B.wC,x,x,x,x,x,x,x),B.at)},
 l(){var x=this,w=x.Q,v=w.L$=$.au()
 w.T$=0
 w=x.as
@@ -214,13 +214,13 @@ w.T$=0
 x.a2V()}}
 var z=a.updateTypes(["~()"])
 C.b8A.prototype={
-$2(d,e){var x,w,v=null,u=e.a===B.b_?1/0:440,t=A.Am("assets/DA_image.svg",v,B.h9,80,80),s=this.b
+$2(d,e){var x,w,v=null,u=e.a===B.b0?1/0:440,t=A.Am("assets/DA_image.svg",v,B.hb,80,80),s=this.b
 if(s.CW)x="Set New Password"
 else x=s.ch?"Verify OTP":"Reset Password"
-x=A.i(x,v,v,v,v,v,A.O(v,v,v,v,v,v,v,v,v,v,v,24,v,v,B.R,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
+x=A.i(x,v,v,v,v,v,A.O(v,v,v,v,v,v,v,v,v,v,v,24,v,v,B.Q,v,v,!0,v,v,v,v,v,v,v,v),v,v,v,v)
 if(s.CW)w="Enter your new password"
 else w=s.ch?"Enter the OTP sent to your email":"Enter your email to receive a password reset OTP"
-return A.z(v,A.cB(8,A.H(A.c([B.E,t,B.e9,x,B.fB,A.i(w,v,v,v,v,v,A.O(v,v,B.W,v,v,v,v,v,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v),B.az,v,v,v),B.aZ,this.a.b2a(d,s)],y.u),B.r,v,B.k,B.K),v,v,new A.a5(20,20,20,20)),B.t,v,new A.ao(0,u,0,1/0),v,v,v,v,new A.a5(10,10,10,10),v,v,v,v)},
+return A.z(v,A.cB(8,A.H(A.c([B.E,t,B.eb,x,B.fC,A.i(w,v,v,v,v,v,A.O(v,v,B.W,v,v,v,v,v,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v),B.aA,v,v,v),B.b_,this.a.b2a(d,s)],y.u),B.r,v,B.k,B.K),v,v,new A.a5(20,20,20,20)),B.t,v,new A.ao(0,u,0,1/0),v,v,v,v,new A.a5(10,10,10,10),v,v,v,v)},
 $S:299}
 C.b8p.prototype={
 $1(d){var x
@@ -304,4 +304,4 @@ x(C.z2,A.BI)})()
 A.jE(b.typeUniverse,JSON.parse('{"HU":{"er":["z2"],"aa":[],"d":[],"er.0":"z2"},"z2":{"bg":[],"aP":[]}}'))
 var y=(function rtii(){var x=A.ay
 return{e:x("ha<J>"),D:x("y2"),i:x("A<ab<~>>"),u:x("A<d>"),o:x("b0<q_>"),y:x("am<e,@>"),B:x("am<@,@>"),w:x("e"),q:x("a_?"),v:x("~")}})()};
-(a=>{a["/BEteGY8LFesrp7A2kq3QgKIYC0="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["0C2C+I3FIWwUBybx7TJ3Ds4oEdg="]=a.current})($__dart_deferred_initializers__);
